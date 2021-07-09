@@ -1,10 +1,11 @@
-import React from "react"
+import React from 'react';
 import '../App.css';
+
 
 function About() {
   return (
     <div className="About">
-        <h1>About</h1>
+        <h1>About Me</h1>
       
     </div>
   );
