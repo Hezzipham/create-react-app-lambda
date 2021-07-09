@@ -7,6 +7,7 @@ import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 import Service from './Components/Service';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import * as ReactBootStrap from 'react-bootstrap';
 
 
 function App() {
