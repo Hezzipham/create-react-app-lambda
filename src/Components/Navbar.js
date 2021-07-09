@@ -6,23 +6,23 @@ function Navbar() {
   return (
     <div className="navbar"  >
             <Link to='/'>
-            <button className="logo" >Logo</button>
+            <p className="logo" >Logo</p>
             </Link>
             <ul className="navlist" >
             <Link to='/service'>
-                <li className="navtab"><button className="navlink" >Services</button></li>
+                <li className="navtab">Services</li>
             </Link>
             <Link to='/portfolio'>
-                <li className="navtab"><button className="navlink" >Portfolio</button></li> 
+                <li className="navtab">Portfolio</li> 
              </Link> 
              <Link to='/about'>
-                <li className="navtab"><button className="navlink" >About Me</button></li>
+                <li className="navtab">About Me</li>
               </Link> 
               <Link to='/resume'>
-                <li className="navtab"><button className="navlink" >Resume</buton></li>
+                <li className="navtab">Resume</li>
                </Link>
                <Link to='/contact'>
-                <li className="navtab"><button className="navlink" >Contact</button></li>
+                <li className="navtab">Contact</li>
               </Link>
             </ul> 
     </div>
