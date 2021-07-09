@@ -1,4 +1,4 @@
-import React npm start:lambdafrom "react"
+import React from "react";
 import "./App.css" 
 import About from './Components/About'
 
