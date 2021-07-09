@@ -4,13 +4,12 @@ import About from './Components/About'
 
 
 
-class App extends Component {
-  render() {
+function App(){
+  
     return (
       <About />
      
     )
-  }
 }
 
-export default App
+export default App;
