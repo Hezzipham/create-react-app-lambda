@@ -1,0 +1,27 @@
+
+.navbar{
+    background-color: $darkbg;
+    width: 100%;
+    height: 4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.navlist{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    list-style: none;
+}
+.navtab a{
+    text-decoration: none;
+}
+.logo{
+    text-decoration: none;
+}
+.narbar a{
+    text-decoration: none;
+}

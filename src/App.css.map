@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "AGCA,AAAA,OAAO,CAAA;EACH,gBAAgB,EFFX,OAAO;EEGZ,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,GAAG;EACX,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,eAAe,EAAE,YAAY;CAEhC;;AACD,AAAA,QAAQ,CAAA;EACJ,KAAK,EAAE,GAAG;EACV,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,YAAY;EAC7B,WAAW,EAAE,MAAM;EAEnB,UAAU,EAAE,IAAI;CACnB;;AACD,AAAA,OAAO,CAAC,CAAC,CAAA;EACL,eAAe,EAAE,IAAI;CACxB;;AACD,AAAA,KAAK,CAAA;EACD,eAAe,EAAE,IAAI;CACxB;;AACD,AAAA,OAAO,CAAC,CAAC,CAAA;EACL,eAAe,EAAE,IAAI;CACxB",
+    "sources": [
+        "Style/App.scss",
+        "Style/_variables.scss",
+        "Style/_app.scss",
+        "Style/_navbar.scss",
+        "Style/_about.scss",
+        "Style/_portfolio.scss"
+    ],
+    "names": [],
+    "file": "App.css"
+}
