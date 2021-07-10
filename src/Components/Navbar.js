@@ -5,7 +5,7 @@ import {Nav, Navbar, Container} from 'react-bootstrap';
 
 function Navi() {
   return (
-    <Navbar className="navbar" variant="dark" expand="md">
+    <Navbar collapseOnSelect className="navbar" variant="dark" expand="md">
       <Container>
       <Navbar.Brand><Link id="logo" to='/'>Hezzi Pham</Link></Navbar.Brand >
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
