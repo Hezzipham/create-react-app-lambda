@@ -13,7 +13,7 @@ import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 function App() {
   return (
     <Router>
-    <body className="App">
+    <div className="App">
       <Navi />
       <Switch>
       <Route path="/" exact component={Home} />
@@ -23,7 +23,7 @@ function App() {
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
       </Switch>
-    </body>
+    </div>
     </Router>
   );
 }
