@@ -6,7 +6,7 @@ import Portfolio from './Components/Portfolio';
 import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 import Service from './Components/Service';
-import {HashRouter as Router, Switch, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 
 
