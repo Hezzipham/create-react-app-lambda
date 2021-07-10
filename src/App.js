@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Navbar from './Components/Navbar';
+import Navi from './Components/Navbar';
 import About from './Components/About';
 import Portfolio from './Components/Portfolio';
 import Resume from './Components/Resume';
@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
     <body className="App">
-      <Navbar />
+      <Navi />
       <Switch>
       <Route path="/" exact component={Home} />
       <Route path="/service" component={Service} />
