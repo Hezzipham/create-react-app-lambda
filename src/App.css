@@ -5,5 +5,11 @@ body {
 
 .navbar {
   background-color: #3d5a80;
+  color: #f0efeb;
+}
+
+#logo {
+  text-decoration: none;
+  color: #f0efeb;
 }
 /*# sourceMappingURL=App.css.map */
