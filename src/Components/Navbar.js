@@ -13,11 +13,11 @@ function Navi() {
       <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav as="ul" className="ml-auto" >
-                <Link as={Nav.Link}  onClick={() => setExpanded(false)} to='/service' className="nav-link">Services</Link>    
-                <Link as={Nav.Link}  onClick={() => setExpanded(false)} to='/portfolio' className="nav-link">Portfolio</Link>   
-                <Link as={Nav.Link}  onClick={() => setExpanded(false)} to='/about' className="nav-link">About Me</Link>     
-                <Link as={Nav.Link}  onClick={() => setExpanded(false)} to='/resume' className="nav-link">Resume</Link>    
-                <Link as={Nav.Link}  to="/contact" className="nav-link">Contact </Link>
+                <Link onClick={() => setExpanded(false)} to='/service' className="nav-link">Services</Link>    
+                <Link onClick={() => setExpanded(false)} to='/portfolio' className="nav-link">Portfolio</Link>   
+                <Link onClick={() => setExpanded(false)} to='/about' className="nav-link">About Me</Link>     
+                <Link onClick={() => setExpanded(false)} to='/resume' className="nav-link">Resume</Link>    
+                <Link onClick={() => setExpanded(false)}to="/contact" className="nav-link">Contact </Link>
           </Nav>
         </Navbar.Collapse> 
       </Container>
