@@ -11,11 +11,11 @@ function Navi() {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav as="ul" className="ml-auto" >
-          <Nav.Link as={Link} href="/service" to='/service' className="nav-link">Services</Nav.Link>
-          <Nav.Link as={Link} href="/portfolio"to='/portfolio' className="nav-link">Portfolio</Nav.Link>   
-          <Nav.Link as={Link} href="/about"to='/about' className="nav-link">About Me</Nav.Link>     
-          <Nav.Link as={Link} href="/resume"to='/resume' className="nav-link">Resume</Nav.Link>    
-          <Nav.Link as={Link} href="/contact" to="/contact" className="nav-link">Contact </Nav.Link>
+          <Nav.Link as={Link} href="/ser" to='/service' className="nav-link">Services</Nav.Link>
+          <Nav.Link as={Link} href="/port"to='/portfolio' className="nav-link">Portfolio</Nav.Link>   
+          <Nav.Link as={Link} href="/ab"to='/about' className="nav-link">About Me</Nav.Link>     
+          <Nav.Link as={Link} href="/re"to='/resume' className="nav-link">Resume</Nav.Link>    
+          <Nav.Link as={Link} href="/con" to="/contact" className="nav-link">Contact </Nav.Link>
           </Nav>
         </Navbar.Collapse> 
       </Container>
