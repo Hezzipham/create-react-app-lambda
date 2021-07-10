@@ -1,21 +1,33 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../App.css';
 import { Link } from 'react-router-dom';
 import {Nav, Navbar, Container} from 'react-bootstrap';
 
 function Navi() {
+  const [expanded, setExpanded] = useState(false);
   return (
-    <Navbar collapseOnSelect className="navbar" variant="dark" expand="md">
+
+    <Navbar expanded={expanded} className="navbar" variant="dark" expand="md">
       <Container>
       <Navbar.Brand > <Link id="logo" to="/">Hezzi Pham</Link></Navbar.Brand >
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav as="ul" className="ml-auto" >
-          <Nav.Link as={Link} href="/ser" to='/service' className="nav-link">Services</Nav.Link>
-          <Nav.Link as={Link} href="/port"to='/portfolio' className="nav-link">Portfolio</Nav.Link>   
-          <Nav.Link as={Link} href="/ab"to='/about' className="nav-link">About Me</Nav.Link>     
-          <Nav.Link as={Link} href="/re"to='/resume' className="nav-link">Resume</Nav.Link>    
-          <Nav.Link as={Link} href="/con" to="/contact" className="nav-link">Contact </Nav.Link>
+          <Nav.Link onClick={() => setExpanded(false)}>
+                <Link to='/service' className="nav-link">Services</Link>    
+            </Nav.Link>
+            <Nav.Link onClick={() => setExpanded(false)}>
+                <Link to='/portfolio' className="nav-link">Portfolio</Link>   
+            </Nav.Link>
+            <Nav.Link onClick={() => setExpanded(false)}>
+                <Link to='/about' className="nav-link">About Me</Link>     
+            </Nav.Link>
+            <Nav.Link onClick={() => setExpanded(false)}>
+                <Link to='/resume' className="nav-link">Resume</Link>    
+            </Nav.Link>
+            <Nav.Link onClick={() => setExpanded(false)}>
+                <Link to="/contact" className="nav-link">Contact </Link>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse> 
       </Container>
