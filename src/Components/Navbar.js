@@ -9,7 +9,7 @@ function Navi() {
 
     <Navbar expanded={expanded} className="navbar" variant="dark" expand="md">
       <Container>
-      <Navbar.Brand > <Link id="logo" to="/">Hezzi Pham</Link></Navbar.Brand >
+      <Navbar.Brand > <Link id="logo" to="/">Home</Link></Navbar.Brand >
       <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav as="ul" className="ml-auto" >
