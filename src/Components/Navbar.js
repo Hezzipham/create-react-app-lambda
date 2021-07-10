@@ -7,7 +7,7 @@ function Navi() {
   return (
     <Navbar className="navbar" variant="dark" expand="md">
       <Container>
-      <Navbar.Brand herf='/'>Hezzi Pham</Navbar.Brand >
+      <Navbar.Brand><Link to='/'>Hezzi Pham</Link></Navbar.Brand >
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav as="ul" className="ml-auto" >
