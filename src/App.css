@@ -12,4 +12,35 @@ body {
   text-decoration: none;
   color: #f0efeb;
 }
+
+.resume {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.resumtop {
+  background-color: #bee1e6;
+  color: #8d99ae;
+  padding: 2em;
+  text-align: center;
+}
+
+.resumtop h1 {
+  font-size: 4em;
+}
+
+.resumbody {
+  padding: 2em;
+  color: #8d99ae;
+  background-color: #e2e2df;
+}
+
+.resumbody a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.resumbody h4 {
+  color: #3d5a80;
+}
 /*# sourceMappingURL=App.css.map */

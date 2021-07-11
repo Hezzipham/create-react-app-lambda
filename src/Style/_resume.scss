@@ -1,0 +1,26 @@
+.resume{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.resumtop{
+    background-color: $mediummint;
+    color: $darktxt;
+    padding: 2em;
+    text-align: center;
+}
+.resumtop h1{
+    font-size: 4em;
+}
+.resumbody{
+    padding: 2em; 
+    color: $darktxt;
+    background-color: $lightbg;
+
+}
+.resumbody a{
+    text-decoration: none;
+    color: inherit;
+}
+.resumbody h4{
+    color: $darkbg;
+}
