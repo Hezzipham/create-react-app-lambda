@@ -1,8 +1,3 @@
-body {
-  background-color: #e2e2df;
-  color: #8d99ae;
-}
-
 .navbar {
   background-color: #3d5a80;
   color: #f0efeb;
@@ -19,8 +14,8 @@ body {
 }
 
 .resumtop {
-  background-color: #bee1e6;
-  color: #8d99ae;
+  background-color: #495867;
+  color: #f0efeb;
   padding: 2em;
   text-align: center;
 }
@@ -31,8 +26,8 @@ body {
 
 .resumbody {
   padding: 2em;
-  color: #8d99ae;
-  background-color: #e2e2df;
+  color: #5e6f85;
+  background-color: #cfd8d7;
 }
 
 .resumbody a {
