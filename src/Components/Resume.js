@@ -29,8 +29,10 @@ function Resume() {
     <a target="_blank" rel='noreferrer noopener' href="https://libraryofgames.org/"><h5>Libraryofgames.org</h5></a>
     <p>A nonprofit organization website to promote Vietnamese folk games, free hosting using GitHub and Netlify</p>
     <h4>EXPERIENCE</h4>
+    <h5>Youtube.com - Bunpeti Channel | April 2020 – Present</h5>
+    <p><b>Youtube partner </b> Content creator Research and create content for a pet rabbit channel.</p>
     <h5>ULTA Beauty | September 2018 – April 2020</h5>
-     <p><b>Salon, Cosmetics, Fragrance Inc </b>Cosmetologist Perform beauty services which were rated 4.8/5 by more than 200 clients. Achieve the first runner selling Paul Mitchell Hair Products in Cumberland County after three months of working.</p>
+     <p><b>Salon, Cosmetics & Fragrance Inc </b>Cosmetologist Perform beauty services which were rated 4.8/5 by more than 200 clients. Achieve the first runner selling Paul Mitchell Hair Products in Cumberland County after three months of working.</p>
     
     <h5>DINO Daycare & Preschool, San Diego, California|April 2016 – July 2017</h5>
     <p><b>Daycare Center, Internal Consultant </b>Created and managed the Daycare’s website and social media platforms including Yelp, Facebook, Instagram with more than 5,000 website views and 25,000 followers within the first year.</p>
