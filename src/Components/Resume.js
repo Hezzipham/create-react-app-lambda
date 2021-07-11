@@ -50,16 +50,17 @@ function Resume() {
       <a target="_blank" rel='noreferrer noopener' href="https://www.udemy.com/certificate/UC-1624b478-ac31-41f2-acc4-5c5851e22d8a/"><h5>Understanding TypeScript</h5></a>
       <p> Udemy.com</p>
       <h4>TECHNICAL SKILL</h4>
-      <p> <span>HTML </span>
-      <span> CSS </span>
-      <span> JavaScript </span>
-      <span> Redux </span> 
-      <span> TypeScript </span> 
-      <span> Bootstrap </span>
-      <span> WordPress </span></p>
+      <p><b> <span>HTML  </span>
+      <span> CSS  </span>
+      <span> JavaScript  </span>
+      <span> React  </span> 
+      <span> Redux  </span> 
+      <span> TypeScript  </span> 
+      <span> Bootstrap  </span>
+      <span> WordPress  </span></b></p>
       <h4>EDUCATION</h4>
             <h5>MBA</h5>
-            <p><b>California Baptist University,Riverside, CA | GPA:3.55</b></p>
+            <p><b>California Baptist University</b>,Riverside, CA | GPA:3.55</p>
         
             <h5>BA, Finance</h5>
             <p><b>FPT University School of Business,</b> Hanoi, Vietnam   
