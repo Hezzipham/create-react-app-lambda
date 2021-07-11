@@ -26,7 +26,7 @@ function Resume() {
     <p>Using HTML, CSS keyframe animation, JavaScript and  jQuery.</p>
     <a target="_blank" rel='noreferrer noopener' href="http://dinodaycare.com/"><h5>Dinodaycare.com </h5></a>
     <p>A preschool responsive website using WordPress, Linux Hosting with cPanel</p>
-    <a target="_blank" rel='noreferrer noopener' href="https://libraryofgames.com/"><h5>Libraryofgames.com</h5></a>
+    <a target="_blank" rel='noreferrer noopener' href="https://libraryofgames.org/"><h5>Libraryofgames.org</h5></a>
     <p>A nonprofit organization website to promote Vietnamese folk games, free hosting using GitHub and Netlify</p>
     <h4>EXPERIENCE</h4>
     <h5>ULTA Beauty | September 2018 – April 2020</h5>
