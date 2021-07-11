@@ -39,7 +39,7 @@ function Resume() {
     <p><b>Nonprofit Organization, Operation Volunteer </b>Researched and classified grant opportunities from potential foundation Coordinately planned and held fundraising events.</p>
     
     </Col>
-    <Col xs={6} md={4}>
+    <Col xs={12} md={4}>
       <h4>CERTIFICATION</h4>
       <a target="_blank" rel='noreferrer noopener' href="https://www.freecodecamp.org/certification/fccc165c594-3b23-412c-84f6-e770f53864b5/responsive-web-design"><h5>Responsive Web Design</h5></a>
       <p> Freecodecamp.org</p>
