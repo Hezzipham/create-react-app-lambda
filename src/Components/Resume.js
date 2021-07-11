@@ -20,13 +20,13 @@ function Resume() {
     
     <Col xs={12} md={8}>
     <h4>PROJECT</h4>
-    <h5>Hezzipham.com</h5>
+    <a target="_blank" rel='noreferrer noopener' href="https://hezzipham.com/"><h5>Hezzipham.com</h5></a>
     <p>Personal Website Using React, Bootstrap, Scss, React Router</p>
-    <h5>Bunpeti.com</h5>
+    <a target="_blank" rel='noreferrer noopener' href="https://bunpeti.com/"><h5>Bunpeti.com</h5></a>
     <p>Using HTML, CSS keyframe animation, JavaScript and  jQuery.</p>
-    <h5>Dinodaycare.com </h5> 
+    <a target="_blank" rel='noreferrer noopener' href="https://dinodaycare.com/"><h5>Dinodaycare.com </h5></a>
     <p>A preschool responsive website using WordPress, Linux Hosting with cPanel</p>
-    <h5>Libraryofgames.com</h5>
+    <a target="_blank" rel='noreferrer noopener' href="https://libraryofgames.com/"><h5>Libraryofgames.com</h5></a>
     <p>A nonprofit organization website to promote Vietnamese folk games, free hosting using GitHub and Netlify</p>
     <h4>EXPERIENCE</h4>
     <h5>ULTA Beauty | September 2018 – April 2020</h5>
