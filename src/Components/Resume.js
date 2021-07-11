@@ -24,7 +24,7 @@ function Resume() {
     <p>Personal Website Using React, Bootstrap, Scss, React Router</p>
     <a target="_blank" rel='noreferrer noopener' href="https://bunpeti.com/"><h5>Bunpeti.com</h5></a>
     <p>Using HTML, CSS keyframe animation, JavaScript and  jQuery.</p>
-    <a target="_blank" rel='noreferrer noopener' href="https://dinodaycare.com/"><h5>Dinodaycare.com </h5></a>
+    <a target="_blank" rel='noreferrer noopener' href="http://dinodaycare.com/"><h5>Dinodaycare.com </h5></a>
     <p>A preschool responsive website using WordPress, Linux Hosting with cPanel</p>
     <a target="_blank" rel='noreferrer noopener' href="https://libraryofgames.com/"><h5>Libraryofgames.com</h5></a>
     <p>A nonprofit organization website to promote Vietnamese folk games, free hosting using GitHub and Netlify</p>
