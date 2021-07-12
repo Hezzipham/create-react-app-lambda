@@ -9,7 +9,8 @@
         "Style/_navbar.scss",
         "Style/_about.scss",
         "Style/_portfolio.scss",
-        "Style/_resume.scss"
+        "Style/_resume.scss",
+        "Style/_contact.scss"
     ],
     "names": [],
     "file": "App.css"

@@ -11,7 +11,6 @@ function Resume() {
   <Row className="resumtop">
       <h1>Hezzi Pham</h1>
       <h2>Web Developer</h2>
-      <p>Phone: | Email: hezzipham@gmail.com | Social link</p>
       
   </Row>
 
