@@ -33,7 +33,7 @@ function Contact() {
                     <fieldset>
                         <Form.Group as={Row} className="mb-3">
                             <Form.Label as="legend" column sm={2}>
-                                You Are My:
+                                You Are:
                             </Form.Label>
                             <Col sm={10}>
                                 <Form.Check
