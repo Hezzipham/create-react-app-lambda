@@ -19,13 +19,13 @@ function Resume() {
     
     <Col xs={12} md={8}>
     <h4>PROJECT</h4>
-    <a target="_blank" rel='noreferrer noopener' href="https://hezzipham.com/"><h5>Hezzipham.com</h5></a>
+    <h5>Hezzipham.com - <a target="_blank" rel="noreferrer noopener" href="https://github.com/Hezzipham/hezziwebsite">GitHub</a> | <a target="_blank" rel="noreferrer noopener" href="https://hezzipham.com/">Live</a></h5>
     <p>Personal Website Using React, Bootstrap, Scss, React Router</p>
-    <a target="_blank" rel='noreferrer noopener' href="https://bunpeti.com/"><h5>Bunpeti.com</h5></a>
+    <h5>Bunpeti.com - <a target="_blank" rel="noreferrer noopener" href="https://github.com/Hezzipham/bunpeti">GitHub</a> | <a target="_blank" rel="noreferrer noopener" href="https://bunpeti.com/">Live</a></h5>
     <p>Using HTML, CSS keyframe animation, JavaScript and  jQuery.</p>
-    <a target="_blank" rel='noreferrer noopener' href="http://dinodaycare.com/"><h5>Dinodaycare.com </h5></a>
+    <h5>Dinodaycare.com - <a target="_blank" rel="noreferrer noopener" href="http://dinodaycare.com/">Live</a> </h5>
     <p>A preschool responsive website using WordPress, Linux Hosting with cPanel</p>
-    <a target="_blank" rel='noreferrer noopener' href="https://libraryofgames.org/"><h5>Libraryofgames.org</h5></a>
+    <h5>Libraryofgames.org - <a target="_blank" rel="noreferrer noopener" href="https://github.com/Hezzipham/halloworld">GitHub</a> | <a target="_blank" rel="noreferrer noopener" href="https://libraryofgames.org/">Live</a></h5>
     <p>A nonprofit organization website to promote Vietnamese folk games, free hosting using GitHub and Netlify</p>
     <h4>EXPERIENCE</h4>
     <h5>Youtube.com - Bunpeti Channel | April 2020 – Present</h5>
