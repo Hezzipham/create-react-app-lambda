@@ -63,7 +63,7 @@ function Contact() {
                             </Col>
                         </Form.Group>
                     </fieldset>
-                    <Button variant="secondary" type="submit">Submit form</Button>
+                    <Button variant="secondary" type="submit">Send</Button>
                     </Form>
             </Container>
   );
