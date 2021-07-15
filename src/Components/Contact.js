@@ -6,7 +6,7 @@ function Contact() {
   return (
    <Container>
                     <h1 className="text-center">Contact Me</h1>
-                    <Form>
+    <Form action="POST" data-netlify="true">
                     <Row className="mb-3">
                         <Form.Group as={Col} controlId="firstName">
                             <Form.Label>First Name</Form.Label>
@@ -26,16 +26,18 @@ function Contact() {
                             <Form.Label>Message</Form.Label>
                             <Form.Control as="textarea" placeholder="Leave a message here" style={{ height: '100px' }} />                          
                         </Form.Group>
-                          <Form.Group controlId="formFile" className="mb-3">
+                        <Form.Group controlId="formFile">
                              <Form.Label>Share A File With Me</Form.Label>
                             <Form.Control type="file" />
-                         </Form.Group>
-                    <fieldset>
-                        <Form.Group as={Row} className="mb-3">
-                            <Form.Label as="legend" column sm={2}>
+                        </Form.Group>             
+                    <Row className="mb-3">
+                        <Col>
+                           <fieldset>
+                        <Form.Group>
+                            <Form.Label>
                                 You Are:
                             </Form.Label>
-                            <Col sm={10}>
+                            <Col>
                                 <Form.Check
                                 type="radio"
                                 label="Recruiter"
@@ -62,10 +64,16 @@ function Contact() {
                                 />
                             </Col>
                         </Form.Group>
-                    </fieldset>
+                         </fieldset>
+                      </Col>
+                      <Col>
+                        <div data-netlify-recaptcha></div>
+                      </Col>
+                    </Row>
+                   
                     <Button variant="secondary" type="submit">Send</Button>
-                    </Form>
-            </Container>
+    </Form>
+   </Container>
   );
 }
 export default Contact;
