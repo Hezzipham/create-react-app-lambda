@@ -61,7 +61,7 @@ function Resume() {
       <span> WordPress  </span></b></p>
       <h4>EDUCATION</h4>
             <h5>MBA</h5>
-            <p><b>California Baptist University</b>,Riverside, CA | GPA:3.55</p>
+            <p><b>California Baptist University</b>,Riverside, CA</p>
         
             <h5>BA, Finance</h5>
             <p><b>FPT University School of Business,</b> Hanoi, Vietnam   
