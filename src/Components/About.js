@@ -1,13 +1,13 @@
 import React from 'react';
 import '../App.css';
-
+import {Container} from 'react-bootstrap';
 
 function About() {
   return (
-    <div className="About">
-        <h1>About Me</h1>
+    <Container className="About">
+        <h1 className="text-center">About Me</h1>
       
-    </div>
+    </Container>
   );
 }
 export default About;

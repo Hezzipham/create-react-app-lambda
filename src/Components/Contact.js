@@ -5,7 +5,7 @@ import {Container, Button, Form, Row, Col} from 'react-bootstrap';
 function Contact() {
   return (
    <Container>
-                    <h1>Contact Me</h1>
+                    <h1 className="text-center">Contact Me</h1>
                     <Form>
                     <Row className="mb-3">
                         <Form.Group as={Col} controlId="firstName">

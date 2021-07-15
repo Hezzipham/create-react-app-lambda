@@ -1,12 +1,13 @@
 import React from 'react';
 import '../App.css';
+import {Container} from 'react-bootstrap';
 
 function Portfolio() {
   return (
-    <div className="Portfolio">
-        <h1>Portfolio</h1>
+    <Container className="Portfolio">
+        <h1 className="text-center">Portfolio</h1>
       
-    </div>
+    </Container>
   );
 }
 export default Portfolio;
