@@ -6,7 +6,7 @@ function Contact() {
   return (
    <Container>
                     <h1 className="text-center">Contact Me</h1>
-    <Form action="POST" data-netlify="true">
+    <Form as="form" method="POST" data-netlify="true">
                     <Row className="mb-3">
                         <Form.Group as={Col} controlId="firstName">
                             <Form.Label>First Name</Form.Label>
@@ -67,7 +67,7 @@ function Contact() {
                          </fieldset>
                       </Col>
                       <Col>
-                        <div data-netlify-recaptcha></div>
+                        <div data-netlify-recaptcha="true" ></div>
                       </Col>
                     </Row>
                    
