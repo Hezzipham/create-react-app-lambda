@@ -4,10 +4,10 @@ import {Container} from 'react-bootstrap';
 
 function Service() {
   return (
-    <div className="Service">
+    <Container className="Service">
         <h1 className="text-center">Service</h1>
       
-    </div>
+    </Container>
   );
 }
 export default Service;
