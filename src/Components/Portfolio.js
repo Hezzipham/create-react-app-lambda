@@ -1,57 +1,58 @@
 import React, {useState} from 'react';
 import '../App.css';
-import {Container, Button, Card, } from 'react-bootstrap';
+import {Container, Button, Card, Col, Row } from 'react-bootstrap';
 import {FaChevronLeft, FaChevronRight, FaRandom} from 'react-icons/fa'
 
 const codepen = [
   {
     id: 1,
-    cpname: "FCC Survey Form",
-    cpuse: "Using HTML, CSS, jQuery",
-    cplink: "https://codepen.io/hezzipham/pen/abNoOLP",
-    cpimage: "./images/codepen1.jpg",
-  },
-  {
-    id: 2,
     cpname: "JS Documentation",
     cpuse: "Using HTML, CSS, jQuery",
     cplink: "https://codepen.io/hezzipham/pen/ZEWEWWy",
-    cpimage: "./images/codepen2.jpg",
+    cpimage: "images/codepen1.jpg",
   },
+  {
+    id: 2,
+    cpname: "FCC Survey Form",
+    cpuse: "Using HTML, CSS, jQuery",
+    cplink: "https://codepen.io/hezzipham/pen/abNoOLP",
+    cpimage: "images/codepen2.jpg",
+  },
+  
   {
     id: 3,
     cpname: "Tribute Page",
     cpuse: "Using HTML, CSS, jQuery",
     cplink: "https://codepen.io/hezzipham/pen/bGEXXwP",
-    cpimage: "./images/codepen3.jpg",
+    cpimage: "images/codepen3.jpg",
   },
   {
     id: 4,
-    cpname: "Random Quote Machine",
+    cpname: "Quote Machine",
     cpuse: "Using React, HTML, CSS, jQuery",
     cplink: "https://codepen.io/hezzipham/pen/PozewyP",
-    cpimage: "./images/codepen4.jpg",
+    cpimage: "images/codepen4.jpg",
   },
   {
     id: 5,
     cpname: "Landing Page",
     cpuse: "Using HTML, CSS, jQuery",
     cplink: "https://codepen.io/hezzipham/pen/dyMbmBR",
-    cpimage: "./images/codepen5.jpg",
+    cpimage: "images/codepen5.jpg",
   },
   {
     id: 6,
     cpname: "Portfolio Page",
     cpuse: "Using W3 Library, HTML, CSS, jQuery",
     cplink: "https://quynhvu.netlify.app/",
-    cpimage: "./images/codepen6.jpg",
+    cpimage: "images/codepen6.jpg",
   },
   {
     id: 7,
     cpname: "Domino Media",
     cpuse: "Using Bootstrap, HTML, CSS, jQuery",
     cplink: "https://codepen.io/hezzipham/pen/oNxNYPO",
-    cpimage: "./images/codepen7.jpg",
+    cpimage: "images/codepen7.jpg",
   },
 ];
 
@@ -85,14 +86,17 @@ const Otherproject = () => {
   }
   return(
     <Card>
-      <Card.Header as="h2"><a href={cplink} target="_blank" rel='noreferrer noopener'>{cpname}</a></Card.Header>
-      <Card.Img variant="top" src={require('../images/codepen7.jpg').default} alt={cpname} />
-      <Card.Text>{cpuse}</Card.Text>
-      <Container>
-        <Button variant="light" className ="prev" onClick={prevCP}><FaChevronLeft /></Button>
+      
+      <Card.Header ><Button variant="light" className ="prev" onClick={prevCP}><FaChevronLeft /></Button>
         <Button size="lg" variant="light"className ="random"><FaRandom onClick={randomCP}/></Button>
-        <Button variant="light" className ="next" onClick={nextCP}><FaChevronRight /></Button> 
-      </Container>
+        <Button variant="light" className ="next" onClick={nextCP}><FaChevronRight /></Button>
+      </Card.Header>
+      <Card.Footer as="h3">
+        {cpname}
+      </Card.Footer>
+      <a href={cplink} target="_blank" rel='noreferrer noopener'><Card.Img variant="top" src={cpimage} alt={cpname} /></a>
+      <Card.Body>{cpuse}</Card.Body>
+      
     </Card>
   )
 }; 
@@ -100,8 +104,14 @@ const Otherproject = () => {
 function Portfolio() {
   return (
     <Container className="portfolio">
-        <Otherproject />
-      
+      <Row>
+        <Col xs={12} md={9}><h2>Most Recent Projects</h2>
+        </Col>
+        <Col xs={12} md={3}>
+          <h2>Other Projects</h2>
+           <Otherproject />
+           </Col>
+      </Row>
     </Container>
   );
 }

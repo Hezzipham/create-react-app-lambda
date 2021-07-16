@@ -1,8 +1,8 @@
 .introimage {
   width: 100vw;
   height: 100vh;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(9, 58, 104, 0.5)), to(rgba(214, 195, 18, 0.5))), url(./images/hezziheader.jpg);
-  background-image: linear-gradient(rgba(9, 58, 104, 0.5), rgba(214, 195, 18, 0.5)), url(./images/hezziheader.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(9, 58, 104, 0.5)), to(rgba(214, 195, 18, 0.5))), url(/public/images/header.jpg);
+  background-image: linear-gradient(rgba(9, 58, 104, 0.5), rgba(214, 195, 18, 0.5)), url(/public/images/header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -52,6 +52,10 @@
 #logo {
   text-decoration: none;
   color: #f0efeb;
+}
+
+.portfolio {
+  text-align: center;
 }
 
 .resume {
