@@ -71,7 +71,7 @@ function Contact() {
                       </Col>
                     </Row>
                    
-                    <Button variant="secondary" type="submit">Send</Button>
+                    <Button variant="secondary">Send</Button>
     </Form>
    </Container>
   );

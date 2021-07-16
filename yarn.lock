@@ -1567,6 +1567,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-icons/all-files@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "@react-icons/all-files@npm:4.1.0"
+  peerDependencies:
+    react: "*"
+  checksum: 69aa179b9736cb9e1517ec3dbeefc4d9cd6bd6a513cf13c45d272eca0ff7cc6309f7990da4557111d6ad85fbfc8217847b15061e1a4921346315a05727969004
+  languageName: node
+  linkType: hard
+
 "@restart/context@npm:^2.1.4":
   version: 2.1.4
   resolution: "@restart/context@npm:2.1.4"
@@ -3898,6 +3907,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "create-react-app-lambda@workspace:."
   dependencies:
+    "@react-icons/all-files": ^4.1.0
     axios: ^0.19.0
     bootstrap: ^5.0.2
     netlify-lambda: ^1.4.5
@@ -3905,6 +3915,7 @@ __metadata:
     react: ^16.8.6
     react-bootstrap: ^1.6.1
     react-dom: ^16.8.6
+    react-icons: ^4.2.0
     react-router-bootstrap: ^0.25.0
     react-router-dom: ^5.2.0
     react-scripts: ^3.0.1
@@ -6458,11 +6469,11 @@ fsevents@^1.2.7:
   linkType: hard
 
 "ignore-walk@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "ignore-walk@npm:3.0.1"
+  version: 3.0.4
+  resolution: "ignore-walk@npm:3.0.4"
   dependencies:
     minimatch: ^3.0.4
-  checksum: e6becfc9679f2404eb8678c876db8b6bad4a974b504f53d358b887cdd43a1498090cc0eb758bffb3a724e8c0a4c551204a0b5b30c2bb1b929a89d71887458dd9
+  checksum: 1222a74f6898c0c72eb382002d260223c71de2b8f973f010d3d59e79a2599b9f0f3e683b12b51b436362abfa0570f8c6f0bd746a2ea8dfc9c0a229bd1da235e0
   languageName: node
   linkType: hard
 
@@ -6589,10 +6600,17 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"ini@npm:^1.3.5, ini@npm:~1.3.0":
+"ini@npm:^1.3.5":
   version: 1.3.5
   resolution: "ini@npm:1.3.5"
   checksum: 304a78d1e0ec49c6dc316b6a21bee5340ba85159c6581235b26a4cf27e2bac5f66f2c8f0e074ceaf3c48085f89fb974691cbf812df2128d2d74c5ef726d1b19a
+  languageName: node
+  linkType: hard
+
+"ini@npm:~1.3.0":
+  version: 1.3.8
+  resolution: "ini@npm:1.3.8"
+  checksum: 62189ce7ea44c5778e757e4232c581212e838f3c39e79d931bb9152fd4b9275f09fb20b96afdd60ba9f5d7996b92486cad6cc617fcb84ff4beedd1b33b86221e
   languageName: node
   linkType: hard
 
@@ -8904,14 +8922,14 @@ fsevents@^1.2.7:
   linkType: hard
 
 "nopt@npm:^4.0.1":
-  version: 4.0.1
-  resolution: "nopt@npm:4.0.1"
+  version: 4.0.3
+  resolution: "nopt@npm:4.0.3"
   dependencies:
     abbrev: 1
     osenv: ^0.1.4
   bin:
-    nopt: ./bin/nopt.js
-  checksum: 1d220f1e15a0697dcb1be26a08e69dfa83b55f21a6cdaf20170fc546b56e722bb1f2e91887fcfed593e57a33c42aa51e760267bd72d83350367a5ad26382a49a
+    nopt: bin/nopt.js
+  checksum: bf7b8c15fd035bf1faa897ec83c3fe5a459beb51a09dfad9413429382139784c3f05e11847d2e5de7160a813c5c8c6cf74c34f22b483c08fdaf465586f293f49
   languageName: node
   linkType: hard
 
@@ -8969,9 +8987,11 @@ fsevents@^1.2.7:
   linkType: hard
 
 "npm-bundled@npm:^1.0.1":
-  version: 1.0.6
-  resolution: "npm-bundled@npm:1.0.6"
-  checksum: e467182a188fdef9dbc16c528ce6e50b43ad6a6f55ef65132c4778cabc4eea0339807119da57a788d9c8a895c2200f30f896ebc26b778487f79cd43c2623cf6d
+  version: 1.1.2
+  resolution: "npm-bundled@npm:1.1.2"
+  dependencies:
+    npm-normalize-package-bin: ^1.0.1
+  checksum: 3fbbc69d1c831e00a0e2a68e565dd8bf6c7557fc75be35d09d64ecaf7310b75e58e3d3a076525232f6af17b70c0bdb53d47e58eef5461bc151c748f60c6d34ed
   languageName: node
   linkType: hard
 
@@ -10955,6 +10975,15 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"react-icons@npm:^4.2.0":
+  version: 4.2.0
+  resolution: "react-icons@npm:4.2.0"
+  peerDependencies:
+    react: "*"
+  checksum: 0052e25c6aacab93da3328ab856e4971214dce082de4bce857801802903366c7a8f9f490fe02ecd4ce181512b7b55cac12d6273c3c8dccc0e3b71b30dfd28256
+  languageName: node
+  linkType: hard
+
 "react-is@npm:^16.3.2, react-is@npm:^16.6.0, react-is@npm:^16.7.0, react-is@npm:^16.8.1, react-is@npm:^16.8.4":
   version: 16.8.6
   resolution: "react-is@npm:16.8.6"
@@ -11172,7 +11201,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"readable-stream@npm:1 || 2, readable-stream@npm:^2.0.0, readable-stream@npm:^2.0.1, readable-stream@npm:^2.0.2, readable-stream@npm:^2.0.6, readable-stream@npm:^2.1.5, readable-stream@npm:^2.2.2, readable-stream@npm:^2.3.3, readable-stream@npm:^2.3.6, readable-stream@npm:~2.3.6":
+"readable-stream@npm:1 || 2, readable-stream@npm:^2.0.0, readable-stream@npm:^2.0.1, readable-stream@npm:^2.0.2, readable-stream@npm:^2.1.5, readable-stream@npm:^2.2.2, readable-stream@npm:^2.3.3, readable-stream@npm:^2.3.6, readable-stream@npm:~2.3.6":
   version: 2.3.6
   resolution: "readable-stream@npm:2.3.6"
   dependencies:
@@ -11184,6 +11213,21 @@ fsevents@^1.2.7:
     string_decoder: ~1.1.1
     util-deprecate: ~1.0.1
   checksum: 2240daa70aa9485971b1be4e20dfb474eaf04d317db92917afdaf55dd170c547a1f82e47026a1c209c85df31ee8951c4ab9427ab7679d4fbebfad039d9c77ff5
+  languageName: node
+  linkType: hard
+
+"readable-stream@npm:^2.0.6":
+  version: 2.3.7
+  resolution: "readable-stream@npm:2.3.7"
+  dependencies:
+    core-util-is: ~1.0.0
+    inherits: ~2.0.3
+    isarray: ~1.0.0
+    process-nextick-args: ~2.0.0
+    safe-buffer: ~5.1.1
+    string_decoder: ~1.1.1
+    util-deprecate: ~1.0.1
+  checksum: 6e3826560627a751feb3a8aec073ef94c6e47b8c8e06eb5d136323b5f09db9d2077c23a42a8d54ed0123695af54b36c1e4271a8ec55112b15f4b89020d8dec72
   languageName: node
   linkType: hard
 
