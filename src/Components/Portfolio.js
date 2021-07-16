@@ -32,7 +32,11 @@ const Otherproject = () => {
   const prevCP = ()=>{
     setIndex((index)=>{
       let newIndex= index - 1;
-      return newIndex;
+      if (newIndex < 0){
+        return newIndex = codepen.length -1; 
+      }else{ return newIndex;
+      }
+      
     });
   };
   return(
