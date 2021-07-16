@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import '../App.css';
-import {Container} from 'react-bootstrap';
+import {Container, Button, Card, } from 'react-bootstrap';
 import {FaChevronLeft, FaChevronRight, FaRandom} from 'react-icons/fa'
 
 const codepen = [
@@ -17,7 +17,42 @@ const codepen = [
     cpuse: "Using HTML, CSS, jQuery",
     cplink: "https://codepen.io/hezzipham/pen/ZEWEWWy",
     cpimage: "./images/codepen2.jpg",
-  }
+  },
+  {
+    id: 3,
+    cpname: "Tribute Page",
+    cpuse: "Using HTML, CSS, jQuery",
+    cplink: "https://codepen.io/hezzipham/pen/bGEXXwP",
+    cpimage: "./images/codepen3.jpg",
+  },
+  {
+    id: 4,
+    cpname: "Random Quote Machine",
+    cpuse: "Using React, HTML, CSS, jQuery",
+    cplink: "https://codepen.io/hezzipham/pen/PozewyP",
+    cpimage: "./images/codepen4.jpg",
+  },
+  {
+    id: 5,
+    cpname: "Landing Page",
+    cpuse: "Using HTML, CSS, jQuery",
+    cplink: "https://codepen.io/hezzipham/pen/dyMbmBR",
+    cpimage: "./images/codepen5.jpg",
+  },
+  {
+    id: 6,
+    cpname: "Portfolio Page",
+    cpuse: "Using W3 Library, HTML, CSS, jQuery",
+    cplink: "https://quynhvu.netlify.app/",
+    cpimage: "./images/codepen6.jpg",
+  },
+  {
+    id: 7,
+    cpname: "Domino Media",
+    cpuse: "Using Bootstrap, HTML, CSS, jQuery",
+    cplink: "https://codepen.io/hezzipham/pen/oNxNYPO",
+    cpimage: "./images/codepen7.jpg",
+  },
 ];
 
 const Otherproject = () => {
@@ -39,17 +74,26 @@ const Otherproject = () => {
       
     });
   };
+
+  const randomCP =() =>{
+    let randomIndex = Math.floor(Math.random() * codepen.length + 1);
+    if(randomIndex === index){
+      randomIndex = index + 1;  
+    }
+    setIndex(randomIndex);
+    console.log(randomIndex);
+  }
   return(
-    <article>
-      <h3><a href={cplink} target="_blank" rel='noreferrer noopener'>{cpname}</a></h3>
-      <div><img src={cpimage} alt={cpname}  /></div>
-      <p>{cpuse}</p>
-      <div className="button-container">
-        <button className ="prev" onClick={prevCP}><FaChevronLeft /></button>
-        <button className ="random"><FaRandom /></button>
-        <button className ="next" onClick={nextCP}><FaChevronRight /></button> 
-      </div>
-    </article>
+    <Card>
+      <Card.Header as="h2"><a href={cplink} target="_blank" rel='noreferrer noopener'>{cpname}</a></Card.Header>
+      <Card.Img variant="top" src={require('../images/codepen7.jpg').default} alt={cpname} />
+      <Card.Text>{cpuse}</Card.Text>
+      <Container>
+        <Button variant="light" className ="prev" onClick={prevCP}><FaChevronLeft /></Button>
+        <Button size="lg" variant="light"className ="random"><FaRandom onClick={randomCP}/></Button>
+        <Button variant="light" className ="next" onClick={nextCP}><FaChevronRight /></Button> 
+      </Container>
+    </Card>
   )
 }; 
 
