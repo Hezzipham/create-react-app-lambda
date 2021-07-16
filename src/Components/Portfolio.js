@@ -85,8 +85,7 @@ const Otherproject = () => {
     console.log(randomIndex);
   }
   return(
-    <Card>
-      
+    <Card> 
       <Card.Header ><Button variant="light" className ="prev" onClick={prevCP}><FaChevronLeft /></Button>
         <Button size="lg" variant="light"className ="random"><FaRandom onClick={randomCP}/></Button>
         <Button variant="light" className ="next" onClick={nextCP}><FaChevronRight /></Button>
@@ -105,9 +104,9 @@ function Portfolio() {
   return (
     <Container className="portfolio">
       <Row>
-        <Col xs={12} md={9}><h2>Most Recent Projects</h2>
+        <Col xs={12} md={8}><h2>Most Recent Projects</h2>
         </Col>
-        <Col xs={12} md={3}>
+        <Col xs={12} md={4}>
           <h2>Other Projects</h2>
            <Otherproject />
            </Col>

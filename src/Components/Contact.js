@@ -5,7 +5,9 @@ import {Container, Button, Form, Row, Col} from 'react-bootstrap';
 function Contact() {
   return (
    <Container>
-    <Form>
+    <Row>
+    <Col xs={12} md={8}>
+        <Form>
                     <Row className="mb-3">
                         <Form.Group as={Col} controlId="firstName">
                             <Form.Label>First Name</Form.Label>
@@ -71,7 +73,13 @@ function Contact() {
                     </Row>
                    
                     <Button variant="secondary">Send</Button>
-    </Form>
+        </Form>
+    </Col>
+    <Col xs={12} md={4}>
+        <h3>You Can Find Me At:</h3>
+        
+    </Col>
+    </Row>
    </Container>
   );
 }
