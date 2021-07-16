@@ -1,3 +1,49 @@
+.introimage {
+  width: 100vw;
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(9, 58, 104, 0.5)), to(rgba(214, 195, 18, 0.5))), url(./images/hezziheader.jpg);
+  background-image: linear-gradient(rgba(9, 58, 104, 0.5), rgba(214, 195, 18, 0.5)), url(./images/hezziheader.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.socialmedia {
+  position: absolute;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 35%;
+  left: 50%;
+}
+
+.socialmedia li {
+  list-style: none;
+}
+
+.socialmedia a {
+  display: block;
+  text-decoration: none;
+  color: #f0efeb;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background: #3d5a80;
+  line-height: 50px;
+  font-size: 2em;
+  margin: 0 10px;
+}
+
+.socialmedia a:hover {
+  background-color: white;
+  color: #3d5a80;
+}
+
 .navbar {
   background-color: #3d5a80;
   color: #f0efeb;

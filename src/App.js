@@ -7,6 +7,7 @@ import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 import Service from './Components/Service';
 import {HashRouter as Router, Switch, Route} from 'react-router-dom';
+import {FaGithub, FaFacebookF, FaInstagram, FaYoutube, FaLinkedinIn} from 'react-icons/fa'
 
 
 
@@ -28,8 +29,14 @@ function App() {
   );
 }
 const Home = () => (
-  <div>
-    <h1>Home Page</h1>
+  <div className="introimage">
+    <ul className="socialmedia">
+          <li><a target="_blank" rel='noreferrer noopener' href="https://www.linkedin.com/in/hezzi-pham/" ><FaLinkedinIn></FaLinkedinIn></a></li>
+          <li><a target="_blank" rel='noreferrer noopener' href="https://github.com/Hezzipham/" ><FaGithub></FaGithub></a></li>
+          <li><a target="_blank" rel='noreferrer noopener' href="http://bit.ly/3qg3O13" ><FaYoutube></FaYoutube></a></li>
+          <li><a target="_blank" rel='noreferrer noopener' href="https://www.instagram.com/hezzipham" ><FaInstagram></FaInstagram></a></li>
+          <li><a target="_blank" rel='noreferrer noopener' href="https://www.facebook.com/hezzipham/" ><FaFacebookF></FaFacebookF></a></li>
+      </ul>
   </div>
 );
 export default App;
