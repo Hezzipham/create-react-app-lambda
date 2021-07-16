@@ -84,4 +84,8 @@
 .resumbody h4 {
   color: #3d5a80;
 }
+
+.resumbody li {
+  list-style: none;
+}
 /*# sourceMappingURL=App.css.map */

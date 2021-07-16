@@ -1,7 +1,8 @@
 import React from 'react';
 import '../App.css';
 import {Container, Col, Row, Button} from 'react-bootstrap';
-
+import {FaHtml5, FaJsSquare,FaWordpress, FaSass, FaReact, FaBootstrap, FaFreeCodeCamp, FaDownload} from 'react-icons/fa'
+import {SiTypescript, SiUdemy, SiJquery} from 'react-icons/si'
 
 
 function Resume() {
@@ -20,9 +21,9 @@ function Resume() {
     <Col xs={12} md={8}>
     <h4>PROJECT</h4>
     <h5>Hezzipham.com - <a target="_blank" rel="noreferrer noopener" href="https://github.com/Hezzipham/hezziwebsite">GitHub</a> | <a target="_blank" rel="noreferrer noopener" href="https://hezzipham.com/">Live</a></h5>
-    <p>Personal Website Using React, Bootstrap, Scss, React Router</p>
+    <p>Personal Website Using React, Bootstrap, Sass, React Router an deploy to Netlify using yarn manage package</p>
     <h5>Bunpeti.com - <a target="_blank" rel="noreferrer noopener" href="https://github.com/Hezzipham/bunpeti">GitHub</a> | <a target="_blank" rel="noreferrer noopener" href="https://bunpeti.com/">Live</a></h5>
-    <p>Using HTML, CSS keyframe animation, JavaScript and  jQuery.</p>
+    <p>Using HTML, Sass, keyframe animation, TypeScript and  jQuery.</p>
     <h5>Dinodaycare.com - <a target="_blank" rel="noreferrer noopener" href="http://dinodaycare.com/">Live</a> </h5>
     <p>A preschool responsive website using WordPress, Linux Hosting with cPanel</p>
     <h5>Libraryofgames.org - <a target="_blank" rel="noreferrer noopener" href="https://github.com/Hezzipham/halloworld">GitHub</a> | <a target="_blank" rel="noreferrer noopener" href="https://libraryofgames.org/">Live</a></h5>
@@ -43,22 +44,23 @@ function Resume() {
     <Col xs={12} md={4}>
       <h4>CERTIFICATION</h4>
       <a target="_blank" rel='noreferrer noopener' href="https://www.freecodecamp.org/certification/fccc165c594-3b23-412c-84f6-e770f53864b5/responsive-web-design"><h5>Responsive Web Design</h5></a>
-      <p> Freecodecamp.org</p>
+      <p><FaFreeCodeCamp></FaFreeCodeCamp> Freecodecamp.org</p>
       <a target="_blank" rel='noreferrer noopener' href="https://www.freecodecamp.org/certification/fccc165c594-3b23-412c-84f6-e770f53864b5/javascript-algorithms-and-data-structures"><h5>JavaScript Algorithms and Data Structures</h5></a>
-      <p> Freecodecamp.org</p>
+      <p><FaFreeCodeCamp></FaFreeCodeCamp> Freecodecamp.org</p>
       <a target="_blank" rel='noreferrer noopener' href="https://www.freecodecamp.org/certification/fccc165c594-3b23-412c-84f6-e770f53864b5/front-end-libraries"><h5>Front End Libraries</h5></a>
-      <p> Freecodecamp.org</p>
+      <p><FaFreeCodeCamp></FaFreeCodeCamp> Freecodecamp.org</p>
       <a target="_blank" rel='noreferrer noopener' href="https://www.udemy.com/certificate/UC-1624b478-ac31-41f2-acc4-5c5851e22d8a/"><h5>Understanding TypeScript</h5></a>
-      <p> Udemy.com</p>
+      <p><SiUdemy></SiUdemy> Udemy.com</p>
       <h4>TECHNICAL SKILL</h4>
-      <p><b> <span>HTML  </span>
-      <span> CSS  </span>
-      <span> JavaScript  </span>
-      <span> React  </span> 
-      <span> Redux  </span> 
-      <span> TypeScript  </span> 
-      <span> Bootstrap  </span>
-      <span> WordPress  </span></b></p>
+      <p><b> <span>HTML <FaHtml5></FaHtml5> |</span>
+      <span> CSS <FaSass></FaSass> |</span>
+      <span> JavaScript <FaJsSquare></FaJsSquare> |</span>
+      <span> TypeScript <SiTypescript></SiTypescript> |</span> 
+      <span> React <FaReact></FaReact> |</span>   
+      <span> WordPress <FaWordpress></FaWordpress> |</span>
+      <span> Bootstrap <FaBootstrap></FaBootstrap> |</span>
+      <span> jQuery <SiJquery></SiJquery></span>
+      </b></p>
       <h4>EDUCATION</h4>
             <h5>MBA</h5>
             <p><b>California Baptist University</b>,Riverside, CA</p>
@@ -78,7 +80,7 @@ function Resume() {
 
   {/* Columns are always 50% wide, on mobile and desktop */}
   <Row>
-    <Button variant="secondary" size="lg">Download Resume</Button>
+    <Button variant="secondary" size="lg"><FaDownload></FaDownload> Download Resume</Button>
   </Row>
 </Container>
   );
