@@ -7,7 +7,7 @@ function About() {
     <Container className="about">
             <Row>
                 <Col xs={12} md={6}>
-                    <h2>Who Am I?</h2>
+                    <h3>Who Am I?</h3>
                     <p>My real name is Hien Thu Pham. Hien is a very popular name but I prefer my nickname "Hezzi" because it's more unique and I never have to be Hien A, B, C anymore haha </p>
                     <h3>My Background</h3>
                     <p><b>Business background:</b> I have earned a Finance Bachelor's Degree and an MBA, I also have a real estate license in North Carolina.</p>

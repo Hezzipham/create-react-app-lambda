@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import '../App.css';
+import Recent from './Recent'
 import {Container, Button, Card, Col, Row } from 'react-bootstrap';
 import {FaChevronLeft, FaChevronRight, FaRandom} from 'react-icons/fa';
 
@@ -71,8 +72,7 @@ const Otherproject = () => {
       let newIndex= index - 1;
       if (newIndex < 0){
         return newIndex = codepen.length -1; 
-      }else{ return newIndex;
-      }
+      }else{ return newIndex}
       
     });
   };
@@ -106,6 +106,7 @@ function Portfolio() {
     <Container className="portfolio">
       <Row>
         <Col xs={12} md={8}><h2>Most Recent Projects</h2>
+        <Recent />
         </Col>
         <Col xs={12} md={4}>
           <h2>Other Projects</h2>

@@ -1,3 +1,24 @@
 .service{
     text-align: center;
 }
+.portfolio{
+    text-align: center;
+}
+.hezziphoto{
+    border-radius: 5%;
+}
+.about{
+    margin-top: 2em;
+}
+.navbar{
+    background-color: $darkbg;
+    color: $lighttxt;
+}
+#logo{
+    text-decoration: none;
+    color: $lighttxt;
+}
+.recent a{
+    text-decoration: none;
+    color: inherit;
+}

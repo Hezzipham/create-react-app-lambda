@@ -2,6 +2,33 @@
   text-align: center;
 }
 
+.portfolio {
+  text-align: center;
+}
+
+.hezziphoto {
+  border-radius: 5%;
+}
+
+.about {
+  margin-top: 2em;
+}
+
+.navbar {
+  background-color: #3d5a80;
+  color: #f0efeb;
+}
+
+#logo {
+  text-decoration: none;
+  color: #f0efeb;
+}
+
+.recent a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .introimage {
   width: 100vw;
   height: 100vh;
@@ -46,28 +73,6 @@
 .socialmedia a:hover {
   background-color: white;
   color: #3d5a80;
-}
-
-.navbar {
-  background-color: #3d5a80;
-  color: #f0efeb;
-}
-
-#logo {
-  text-decoration: none;
-  color: #f0efeb;
-}
-
-.hezziphoto {
-  border-radius: 5%;
-}
-
-.about {
-  margin-top: 2em;
-}
-
-.portfolio {
-  text-align: center;
 }
 
 .resume {

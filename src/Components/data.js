@@ -2,7 +2,7 @@ const data ={ products:[
   {
     id: 1,
     name: "Web Design",
-    description: "Make your idea become real, Web development services imply designing, building, integrating, scaling and maintaining software that work via intranet or internet.",
+    description: "Web development services imply designing, building, integrating, scaling and maintaining software that work via intranet or internet.",
     price: 1299.98,
     image: "https://images.unsplash.com/photo-1541462608143-67571c6738dd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80",
     amount: 1
@@ -41,7 +41,7 @@ const data ={ products:[
     },
   {
     id: 6,
-    name: "Business Consult",
+    name: "Coaching",
     description: "Don't know how to use SEO tools or create excellent content in marketing? Sign up for a free trial tutorial and consultant.",
     price: 799.48,
     image: "https://images.unsplash.com/photo-1543269865-cbf427effbad?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
