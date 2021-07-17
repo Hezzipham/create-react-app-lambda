@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import '../App.css';
 import {Container, Button, Card, Col, Row } from 'react-bootstrap';
-import {FaChevronLeft, FaChevronRight, FaRandom} from 'react-icons/fa'
+import {FaChevronLeft, FaChevronRight, FaRandom} from 'react-icons/fa';
+
 
 const codepen = [
   {
