@@ -40,7 +40,7 @@ const data ={ products:[
     amount: 1
     },
   {
-    id: 5,
+    id: 6,
     name: "Business Consult",
     description: "Don't know how to use SEO tools or create excellent content in marketing? Sign up for a free trial tutorial and consultant.",
     price: 799.48,
