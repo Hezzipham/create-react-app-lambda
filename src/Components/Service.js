@@ -118,7 +118,7 @@ function Service() {
     <Container className="service">
       <Row>
         <Col xs={12} md={8}>
-        <h2>Service</h2>
+        <h2>Services</h2>
         <Main products={products} onAdd={onAdd}></Main>
         </Col>
         <Col xs={12} md={4}>
