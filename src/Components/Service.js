@@ -76,7 +76,7 @@ function Product(props) {
   const { product, onAdd } = props;
   return (
     <Card as={Col} xs={12} md={4}>
-      <Card.Header><h3>{product.name}</h3></Card.Header>
+      <Card.Header><h4>{product.name}</h4></Card.Header>
       
       <Card.Img className="small" src={product.image} alt={product.name} />
       
@@ -128,7 +128,7 @@ function Service() {
           onAdd={onAdd}
           onRemove={onRemove}
         ></Basket>
-        <p><i>These are just for practicing, not real services price. Please contact me if you need a quote from me!</i></p>
+        <p><i>This Cart is just for practicing, not real services price. Please contact me if you need a quote from me!</i></p>
         </Col>
         </Row>
     </Container>

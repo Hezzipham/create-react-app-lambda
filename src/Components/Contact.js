@@ -4,9 +4,10 @@ import {Container, Button, Form, Row, Col} from 'react-bootstrap';
 
 function Contact() {
   return (
+    
    <Container>
-    <Row>
-    <Col xs={12} md={8}>
+
+    <Col>
         <Form>
                     <Row className="mb-3">
                         <Form.Group as={Col} controlId="firstName">
@@ -75,11 +76,7 @@ function Contact() {
                     <Button variant="secondary">Send</Button>
         </Form>
     </Col>
-    <Col xs={12} md={4}>
-        <h3>You Can Find Me At:</h3>
-        
-    </Col>
-    </Row>
+
    </Container>
   );
 }

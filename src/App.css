@@ -58,6 +58,14 @@
   color: #f0efeb;
 }
 
+.hezziphoto {
+  border-radius: 5%;
+}
+
+.about {
+  margin-top: 2em;
+}
+
 .portfolio {
   text-align: center;
 }
