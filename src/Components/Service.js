@@ -49,11 +49,11 @@ function Basket(props) {
               <Col><strong>Total Price</strong></Col>
               <Col><strong>${totalPrice.toFixed(2)}</strong></Col> 
             </Row>
-            </Card.Footer>
-              <Button size="lg" variant="secondary" onClick={() => alert('Contact Me To Get Better Quote')}>
+            
+              <Button  variant="secondary" onClick={() => alert('Contact Me To Get Better Quote')}>
                 Checkout
               </Button>
-         
+         </Card.Footer>
           </>
         )}
       </div>
@@ -128,6 +128,7 @@ function Service() {
           onAdd={onAdd}
           onRemove={onRemove}
         ></Basket>
+        <p><i>These are just for practicing, not real services price. Please contact me if you need a quote from me!</i></p>
         </Col>
         </Row>
     </Container>
