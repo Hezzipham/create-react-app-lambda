@@ -21,13 +21,13 @@ function Resume() {
     <Col xs={12} md={8}>
     <h4>PROJECT</h4>
     <h5>Hezzipham.com - <a target="_blank" rel="noreferrer noopener" href="https://github.com/Hezzipham/hezziwebsite">GitHub</a> | <a target="_blank" rel="noreferrer noopener" href="https://hezzipham.com/">Live</a></h5>
-    <p>Personal Website Using React, Bootstrap, Sass, React Router an deploy to Netlify using yarn manage package</p>
+    <p>Personal Website using React, React Router, Bootstrap, Sass, and netlify-lambda together in a Netlify Dev workflow. Implement react hooks to fetch data to build an e-commerce shopping cart and a  responsive portfolio. </p>
     <h5>Bunpeti.com - <a target="_blank" rel="noreferrer noopener" href="https://github.com/Hezzipham/bunpeti">GitHub</a> | <a target="_blank" rel="noreferrer noopener" href="https://bunpeti.com/">Live</a></h5>
-    <p>Using HTML, Sass, keyframe animation, TypeScript and  jQuery.</p>
+    <p>Using HTML, Sass, TypeScript and  jQuery to create fun animation, reponsive website to publicize Bunpeti youtube channel and display some affiliate marketing products.</p>
     <h5>Dinodaycare.com - <a target="_blank" rel="noreferrer noopener" href="http://dinodaycare.com/">Live</a> </h5>
-    <p>A preschool responsive website using WordPress, Linux Hosting with cPanel</p>
+    <p>A preschool responsive website, where clients can fill in forms, chat support online, and navigate to different documentation. Using WordPress, Linux Hosting with cPanel</p>
     <h5>Libraryofgames.org - <a target="_blank" rel="noreferrer noopener" href="https://github.com/Hezzipham/halloworld">GitHub</a> | <a target="_blank" rel="noreferrer noopener" href="https://libraryofgames.org/">Live</a></h5>
-    <p>A nonprofit organization website to promote Vietnamese folk games, free hosting using GitHub and Netlify</p>
+    <p>A nonprofit organization website to promote Vietnamese folk games. Using html5, CSS, vanilla JavaScript, and free hosting with GitHub and Netlify</p>
     <h4>EXPERIENCE</h4>
     <h5>Youtube.com - Bunpeti Channel | April 2020 – Present</h5>
     <p><b>Youtube partner </b> Content creator Research and create content for a pet rabbit channel.</p>
