@@ -105,10 +105,10 @@ function Portfolio() {
   return (
     <Container className="portfolio">
       <Row>
-        <Col xs={12} md={8}><h2>Most Recent Projects</h2>
+        <Col xs={12} md={9}><h2>Most Recent Projects</h2>
         <Recent />
         </Col>
-        <Col xs={12} md={4}>
+        <Col xs={12} md={3}>
           <h2>Other Projects</h2>
            <Otherproject />
            </Col>
