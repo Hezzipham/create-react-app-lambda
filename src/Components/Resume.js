@@ -67,7 +67,7 @@ function Resume() {
         
             <h5>BA, Finance</h5>
             <p><b>FPT University School of Business,</b> Hanoi, Vietnam   
-              <li>Introduction to Infomatics</li> 
+              <li>Introduction to Informatics</li> 
               <li>Management Information Systems</li>
               <li>E-commerce</li> </p>
       <h4>INTEREST</h4>
