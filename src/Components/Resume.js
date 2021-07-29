@@ -26,7 +26,7 @@ function Resume() {
     <p>Using HTML, Sass, TypeScript and  jQuery to create fun animation, reponsive website to publicize Bunpeti youtube channel and display some affiliate marketing products.</p>
     <h5>Libraryofgames.org - <a target="_blank" rel="noreferrer noopener" href="https://github.com/Hezzipham/halloworld">GitHub</a> | <a target="_blank" rel="noreferrer noopener" href="https://libraryofgames.org/">Live</a></h5>
     <p>A nonprofit organization website to promote Vietnamese folk games. Using html5, CSS, vanilla JavaScript, and free hosting with GitHub and Netlify</p>
-    <h5>Domino Media - <a href="https://github.com/Hezzipham/Dominomedia" target="_blank" rel="noreferrer noopener">GitHub</a> | <a target="_blank" rel="noreferrer noopener"  >Live</a></h5>
+    <h5>Domino Media - <a href="https://github.com/Hezzipham/Dominomedia" target="_blank" rel="noreferrer noopener">GitHub</a> | <a target="_blank" rel="noreferrer noopener" href="https://domino.chienvu.com/" >Live</a></h5>
     <p>A Digital Agency Website, implementing JavaScript, Css, Hugo meghna bundle toghether with Forestry to build a bilingual web app, easy to maintain by client</p>
     <h5>Dinodaycare.com - <a target="_blank" rel="noreferrer noopener" href="http://dinodaycare.com/">Live</a> </h5>
     <p>A preschool responsive website, where clients can fill in forms, chat support online, and navigate to different documentation. Using WordPress, Linux Hosting with cPanel</p>
