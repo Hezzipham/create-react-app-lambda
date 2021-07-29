@@ -1,8 +1,8 @@
 import React from 'react';
 import '../App.css';
 import {Container, Col, Row, Button} from 'react-bootstrap';
-import {FaHtml5, FaJsSquare,FaWordpress, FaSass, FaReact, FaBootstrap, FaFreeCodeCamp, FaDownload} from 'react-icons/fa'
-import {SiTypescript, SiUdemy, SiJquery} from 'react-icons/si'
+import {FaHtml5, FaJsSquare,FaWordpress, FaSass, FaFlask, FaPython, FaReact, FaBootstrap, FaFreeCodeCamp, FaDownload} from 'react-icons/fa'
+import {SiTypescript,SiHugo, SiHeroku, SiUdemy,SiMysql, SiJquery} from 'react-icons/si'
 
 
 function Resume() {
@@ -59,11 +59,11 @@ function Resume() {
       <span> JavaScript <FaJsSquare></FaJsSquare> |</span>
       <span> TypeScript <SiTypescript></SiTypescript> |</span> 
       <span> React <FaReact></FaReact> |</span>   
-      <span> Python <FaReact></FaReact> |</span>  
-      <span> SQL <FaReact></FaReact> |</span>  
-      <span> Flask <FaReact></FaReact> |</span>  
-      <span> Hugo <FaReact></FaReact> |</span>   
-      <span> Heroku <FaReact></FaReact> |</span>      
+      <span> Python <FaPython></FaPython> |</span>  
+      <span> SQL <SiMysql></SiMysql> |</span>  
+      <span> Flask <FaFlask></FaFlask> |</span>  
+      <span> Hugo <SiHugo></SiHugo> |</span>   
+      <span> Heroku <SiHeroku></SiHeroku> |</span>      
       <span> WordPress <FaWordpress></FaWordpress> |</span>
       <span> Bootstrap <FaBootstrap></FaBootstrap> |</span>
       <span> jQuery <SiJquery></SiJquery></span>
