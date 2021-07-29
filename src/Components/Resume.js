@@ -24,10 +24,10 @@ function Resume() {
     <p>Personal Website using React, React Router, Bootstrap, Sass, and netlify-lambda together in a Netlify Dev workflow. Implement react hooks to fetch data to build an e-commerce shopping cart and a  responsive portfolio. </p>
     <h5>Bunpeti.com - <a target="_blank" rel="noreferrer noopener" href="https://github.com/Hezzipham/bunpeti">GitHub</a> | <a target="_blank" rel="noreferrer noopener" href="https://bunpeti.com/">Live</a></h5>
     <p>Using HTML, Sass, TypeScript and  jQuery to create fun animation, reponsive website to publicize Bunpeti youtube channel and display some affiliate marketing products.</p>
-    <h5>Libraryofgames.org - <a target="_blank" rel="noreferrer noopener" href="https://github.com/Hezzipham/halloworld">GitHub</a> | <a href="https://domino.chienvu.com/" target="_blank" rel="noreferrer noopener" href="https://libraryofgames.org/">Live</a></h5>
+    <h5>Libraryofgames.org - <a target="_blank" rel="noreferrer noopener" href="https://github.com/Hezzipham/halloworld">GitHub</a> | <a target="_blank" rel="noreferrer noopener" href="https://libraryofgames.org/">Live</a></h5>
     <p>A nonprofit organization website to promote Vietnamese folk games. Using html5, CSS, vanilla JavaScript, and free hosting with GitHub and Netlify</p>
-    <h5>Domino Media - <a href="https://github.com/Hezzipham/Dominomedia" target="_blank" rel="noreferrer noopener">GitHub</a> | <a target="_blank" rel="noreferrer noopener">Live</a></h5>
-    <p>A Digital Agency Website, using JavaScript, Css, Hugo meghna bundle toghether with Forestry to build a bilingual web app, easy to maintain by client</p>
+    <h5>Domino Media - <a href="https://github.com/Hezzipham/Dominomedia" target="_blank" rel="noreferrer noopener">GitHub</a> | <a target="_blank" rel="noreferrer noopener"  >Live</a></h5>
+    <p>A Digital Agency Website, implementing JavaScript, Css, Hugo meghna bundle toghether with Forestry to build a bilingual web app, easy to maintain by client</p>
     <h5>Dinodaycare.com - <a target="_blank" rel="noreferrer noopener" href="http://dinodaycare.com/">Live</a> </h5>
     <p>A preschool responsive website, where clients can fill in forms, chat support online, and navigate to different documentation. Using WordPress, Linux Hosting with cPanel</p>
     <h4>EXPERIENCE</h4>
