@@ -1,0 +1,28 @@
+when I accidentally delete the SSH public key on GitHub:
+Every time I push a commit to git hub it said: "permission denied (publickey)" 
+So I need to use this command: 
+Generating public/private rsa key pair.
+
+ssh-keygen -t rsa -b 4096
+
+then press enter to save in default place, then add a passphrase or just keep press enter to not set one.
+
+if you dont remember remember tge passphrase you need to Generating new key, and then access it by doing this:
+
+Viewing your keys on macOS: 
+
+cat ~/.ssh/id_rsa.pub
+
+Or:
+
+cat /Users/USERNAME/.ssh/id_rsa.pub
+Where USERNAME is your macOS username.
+
+The above commands will print out your SSH public key. 
+
+macOS also has one more nifty trick up its sleeve. You can copy the contents of the SSH key directly to the clipboard, without displaying the key, using the pbcopy tool. This command would be:
+
+cat ~/.ssh/id_rsa.pub | pbcopy
+
+Now you can go to GitHub setting to add new public key.
+everytime you push to github you will have to enter the passphrase that you use in the public key
