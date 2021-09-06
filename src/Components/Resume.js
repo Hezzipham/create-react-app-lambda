@@ -87,8 +87,8 @@ function Resume() {
     <h4>EDUCATION</h4>
       <hr></hr>
       <div>
-            <h5><b>MBA | California Baptist University</b>, Riverside, CA</h5>
-            <h5><b>BA | FinanceFPT University School of Business</b>, Hanoi, Vietnam</h5>   
+            <h5><b>MBA</b> | California Baptist University, Riverside, CA</h5>
+            <h5><b>BA</b> | FinanceFPT University School of Business, Hanoi, Vietnam</h5>   
               <li>Introduction to Informatics</li> 
               <li>Management Information Systems</li>
               <li>E-commerce</li>
