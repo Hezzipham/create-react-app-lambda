@@ -80,7 +80,7 @@ function Product(props) {
       
       <Card.Img className="small" src={product.image} alt={product.name} />
       
-      <Card.Footer><p>${product.price}/hour</p><p>{product.description}</p>
+      <Card.Footer><p>${product.price}/hour</p>
         <Button variant="secondary" onClick={() => onAdd(product)}>Add To Cart</Button>
       </Card.Footer>
     </Card>
