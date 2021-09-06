@@ -50,7 +50,7 @@ function Basket(props) {
               <Col><strong>${totalPrice.toFixed(2)}</strong></Col> 
             </Row>
             
-              <Button  variant="secondary" onClick={() => alert('Contact Me To Get Better Quote')}>
+              <Button  variant="primary" onClick={() => alert('Contact Me To Get Better Quote')}>
                 Checkout
               </Button>
          </Card.Footer>
@@ -81,7 +81,7 @@ function Product(props) {
       <Card.Img className="small" src={product.image} alt={product.name} />
       
       <Card.Footer><p>${product.price}/hour</p>
-        <Button variant="secondary" onClick={() => onAdd(product)}>Add To Cart</Button>
+        <Button variant="success" onClick={() => onAdd(product)}>Add To Cart</Button>
       </Card.Footer>
     </Card>
   );

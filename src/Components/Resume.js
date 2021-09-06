@@ -99,7 +99,7 @@ function Resume() {
 
   {/* Columns are always 50% wide, on mobile and desktop */}
   <Row>
-  <a rel="noreferrer noopener" href="images/HezziWDResume.pdf" download><Button variant="secondary" size="lg"><FaDownload></FaDownload> Download Resume</Button></a>
+  <a rel="noreferrer noopener" href="images/HezziWDResume.pdf" download><Button variant="success" size="lg"><FaDownload></FaDownload> Download Resume</Button></a>
   </Row>
 </Container>
   );
