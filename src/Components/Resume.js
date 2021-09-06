@@ -21,6 +21,7 @@ function Resume() {
   <h4>EXECUTIVE SUMMARY</h4>
   <p>Meticulous full stack web developer, dedicated to learn new technology and solve challenging problems with strong technical skills, proactive mindset and positive attitude. </p>
   <h4>TECHNICAL SKILL</h4>
+  <hr></hr>
       <p><b> <span>HTML <FaHtml5></FaHtml5> |</span>
       <span> CSS <FaSass></FaSass> |</span>
       <span> JavaScript <FaJsSquare></FaJsSquare> |</span>
@@ -37,6 +38,7 @@ function Resume() {
       </b></p>
 
       <ul><h4>CERTIFICATION</h4>
+      
     <li>
       <a target="_blank" rel='noreferrer noopener' href="https://www.udemy.com/certificate/UC-57e38dfa-54ed-425a-8afe-de0e47fa6008/"><h5>The Python Pro Bootcamp</h5></a>
     </li>
