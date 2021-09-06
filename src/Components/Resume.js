@@ -39,40 +39,13 @@ function Resume() {
 
     <h4>CERTIFICATION</h4>
     <hr></hr>
-      <ul>
-    <li>
       <a target="_blank" rel='noreferrer noopener' href="https://www.udemy.com/certificate/UC-57e38dfa-54ed-425a-8afe-de0e47fa6008/"><h5>The Python Pro Bootcamp</h5></a>
-    </li>
-    <li>
       <a target="_blank" rel='noreferrer noopener' href="https://www.udemy.com/certificate/UC-d5333fa2-f6ae-41b8-af3b-34202ef978c6/"><h5>The Complete SQL Bootcamp</h5></a>
-    </li>
-    <li>
       <a target="_blank" rel='noreferrer noopener' href="https://www.udemy.com/certificate/UC-1624b478-ac31-41f2-acc4-5c5851e22d8a/"><h5>Understanding TypeScript</h5></a>
-    </li> 
-    <li>
       <a target="_blank" rel='noreferrer noopener' href="https://www.freecodecamp.org/certification/fccc165c594-3b23-412c-84f6-e770f53864b5/javascript-algorithms-and-data-structures"><h5>JavaScript Algorithms and Data Structures</h5></a>
-    </li>
-    <li>
       <a target="_blank" rel='noreferrer noopener' href="https://www.freecodecamp.org/certification/fccc165c594-3b23-412c-84f6-e770f53864b5/front-end-libraries"><h5>Front End Libraries</h5></a>
-    </li>
-    <li>
       <a target="_blank" rel='noreferrer noopener' href="https://www.freecodecamp.org/certification/fccc165c594-3b23-412c-84f6-e770f53864b5/responsive-web-design"><h5>Responsive Web Design</h5></a>
-    </li>
-    <li>
       <a target="_blank" rel='noreferrer noopener' href="https://www.linkedin.com/learning/scrum-the-basics"><h5>Scrum: The Basics</h5></a>
-    </li>
-      </ul>
-      
-      <h4>EDUCATION</h4>
-      <hr></hr>
-            <h5>MBA</h5>
-            <p><b>California Baptist University</b>,Riverside, CA</p>
-        
-            <h5>BA, Finance</h5>
-            <p><b>FPT University School of Business,</b> Hanoi, Vietnam   
-              <li>Introduction to Informatics</li> 
-              <li>Management Information Systems</li>
-              <li>E-commerce</li> </p>
       <h4>INTEREST</h4>
       <hr></hr>
             <li>Web Design</li>
@@ -99,7 +72,16 @@ function Resume() {
     
     <h5><a target="_blank" rel="noreferrer noopener" href="http://dinodaycare.com">DINO Daycare & Preschool | April 2016 – July 2017</a></h5>
     <p><b>PR-Marketing Manager</b>Created and managed the Daycare’s website and social media platforms including Yelp, Facebook, Instagram with more than 5,000 website views and 25,000 followers within the first year.</p>
-
+    <h4>EDUCATION</h4>
+      <hr></hr>
+            <h5>MBA</h5>
+            <p><b>California Baptist University</b>,Riverside, CA</p>
+        
+            <h5>BA, Finance</h5>
+            <p><b>FPT University School of Business,</b> Hanoi, Vietnam   
+              <li>Introduction to Informatics</li> 
+              <li>Management Information Systems</li>
+              <li>E-commerce</li> </p>
     </Col>
     
   </Row>
