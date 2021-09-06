@@ -68,7 +68,7 @@ function Resume() {
     <div>
     <h5>Personal Website - <a target="_blank" rel="noreferrer noopener" href="https://github.com/Hezzipham/hezziwebsite">GitHub</a> | <a target="_blank" rel="noreferrer noopener" href="https://hezzipham.com/">Live</a></h5>
     <p>A website to display personal information, portfolio, and estimate services price quotation. Design with React, Bootstrap, SASS and using yarn package to deploy on Netlify </p>
-    <h5>Libraryofgames.org - <a target="_blank" rel="noreferrer noopener" href="https://github.com/Hezzipham/halloworld">GitHub</a> | <a target="_blank" rel="noreferrer noopener" href="https://libraryofgames.org/">Live</a></h5>
+    <h5>Libraryofgames.org - <a target="_blank" rel="noreferrer noopener" href="https://github.com/Hezzipham/library_of_game">GitHub</a> | <a target="_blank" rel="noreferrer noopener" href="https://libraryofgames.org/">Live</a></h5>
     <p>Python Flask app where people can upload, download books and log in to delete data. Using SQLite to store data, Flask WTF to build an interactive user interface.</p>
     <h5>Flight Deals - <a target="_blank" rel="noreferrer noopener" href="https://github.com/Hezzipham/Flight_Deals/">GitHub</a> </h5>
     <p>Python app using Kiwi Partners Tequila API to search for the best flight deals within 6 months. Use the Twilio API to automatically send an SMS with information to book the flight. </p>
@@ -99,7 +99,7 @@ function Resume() {
 
   {/* Columns are always 50% wide, on mobile and desktop */}
   <Row>
-    <Button variant="secondary" size="lg"><FaDownload></FaDownload><a rel="noreferrer noopener" href="images/HezziWDResume.pdf" download> Download Resume</a></Button>
+  <a rel="noreferrer noopener" href="images/HezziWDResume.pdf" download><Button variant="secondary" size="lg"><FaDownload></FaDownload> Download Resume</Button></a>
   </Row>
 </Container>
   );
