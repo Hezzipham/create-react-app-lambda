@@ -19,24 +19,24 @@ function App() {
       <Switch>
       <Route path="/" exact component={Home} />
       <Route path="/service" component={Service} />
+      <Route path="/portfolio" component={Portfolio} />
       <Route path="/resume" component= {Resume} />
+      <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
       </Switch>
     </div>
-    <About />
-    <Portfolio />
     </Router>
   );
 }
-// const Home = () => (
-//   <div className="introimage">
-//     <ul className="socialmedia">
-//           <li><a target="_blank" rel='noreferrer noopener' href="https://www.linkedin.com/in/hezzi-pham/" ><FaLinkedinIn></FaLinkedinIn></a></li>
-//           <li><a target="_blank" rel='noreferrer noopener' href="https://github.com/Hezzipham/" ><FaGithub></FaGithub></a></li>
-//           <li><a target="_blank" rel='noreferrer noopener' href="https://twitter.com/HezziPham" ><FaTwitter></FaTwitter></a></li>
-//           <li><a target="_blank" rel='noreferrer noopener' href="https://www.instagram.com/hezzipham" ><FaInstagram></FaInstagram></a></li>
-//           <li><a target="_blank" rel='noreferrer noopener' href="https://www.facebook.com/hezzipham/" ><FaFacebookF></FaFacebookF></a></li>
-//       </ul>
-//   </div>
-// );
+const Home = () => (
+  <div className="introimage">
+    <ul className="socialmedia">
+          <li><a target="_blank" rel='noreferrer noopener' href="https://www.linkedin.com/in/hezzi-pham/" ><FaLinkedinIn></FaLinkedinIn></a></li>
+          <li><a target="_blank" rel='noreferrer noopener' href="https://github.com/Hezzipham/" ><FaGithub></FaGithub></a></li>
+          <li><a target="_blank" rel='noreferrer noopener' href="https://twitter.com/HezziPham" ><FaTwitter></FaTwitter></a></li>
+          <li><a target="_blank" rel='noreferrer noopener' href="https://www.instagram.com/hezzipham" ><FaInstagram></FaInstagram></a></li>
+          <li><a target="_blank" rel='noreferrer noopener' href="https://www.facebook.com/hezzipham/" ><FaFacebookF></FaFacebookF></a></li>
+      </ul>
+  </div>
+);
 export default App;
