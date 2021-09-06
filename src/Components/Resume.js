@@ -37,8 +37,9 @@ function Resume() {
       <span> jQuery <SiJquery></SiJquery></span>
       </b></p>
 
-      <ul><h4>CERTIFICATION</h4>
-
+    <h4>CERTIFICATION</h4>
+    <hr></hr>
+      <ul>
     <li>
       <a target="_blank" rel='noreferrer noopener' href="https://www.udemy.com/certificate/UC-57e38dfa-54ed-425a-8afe-de0e47fa6008/"><h5>The Python Pro Bootcamp</h5></a>
     </li>
@@ -63,6 +64,7 @@ function Resume() {
       </ul>
       
       <h4>EDUCATION</h4>
+      <hr></hr>
             <h5>MBA</h5>
             <p><b>California Baptist University</b>,Riverside, CA</p>
         
@@ -72,6 +74,7 @@ function Resume() {
               <li>Management Information Systems</li>
               <li>E-commerce</li> </p>
       <h4>INTEREST</h4>
+      <hr></hr>
             <li>Web Design</li>
             <li>Videography</li>
             <li>Animation</li>
@@ -80,6 +83,7 @@ function Resume() {
     
     <Col xs={12} md={8}>
     <h4>PROFESSIONAL PROJECT</h4>
+    <hr></hr>
     <h5>Personal Website - <a target="_blank" rel="noreferrer noopener" href="https://github.com/Hezzipham/hezziwebsite">GitHub</a> | <a target="_blank" rel="noreferrer noopener" href="https://hezzipham.com/">Live</a></h5>
     <p>A website to display personal information, portfolio, and estimate services price quotation. Design with React, Bootstrap, SASS and using yarn package to deploy on Netlify </p>
     <h5>Libraryofgames.org - <a target="_blank" rel="noreferrer noopener" href="https://github.com/Hezzipham/halloworld">GitHub</a> | <a target="_blank" rel="noreferrer noopener" href="https://libraryofgames.org/">Live</a></h5>
@@ -87,6 +91,7 @@ function Resume() {
     <h5>Flight Deals - <a target="_blank" rel="noreferrer noopener" href="https://github.com/Hezzipham/Flight_Deals/">GitHub</a> </h5>
     <p>Python app using Kiwi Partners Tequila API to search for the best flight deals within 6 months. Use the Twilio API to automatically send an SMS with information to book the flight. </p>
     <h4>EXPERIENCE</h4>
+    <hr></hr>
     <h5><a target="_blank" rel="noreferrer noopener" href="https://www.bunpeti.com/">Bun Pet Inc | Sep 2020 – Present</a></h5> 
     <p><b>Founder </b> Developed a website to create content about pet care,  recommending pet supplies,  which gain 3000 subscribers, create 80 youtube videos, gather and answer 5000 questions.   </p>
     <h5><a target="_blank" rel="noreferrer noopener" href="https://www.chienvu.com/">Domino Media | September 2017 – April 2020</a></h5>
@@ -101,7 +106,7 @@ function Resume() {
 
   {/* Columns are always 50% wide, on mobile and desktop */}
   <Row>
-    <Button variant="secondary" size="lg"><FaDownload></FaDownload> Download Resume</Button>
+    <Button variant="secondary" size="lg"><FaDownload></FaDownload><a rel="noreferrer noopener" href="images/HezziWDResume.pdf" download> Download Resume</a></Button>
   </Row>
 </Container>
   );
