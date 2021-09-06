@@ -1,8 +1,8 @@
 import React from 'react';
 import '../App.css';
 import {Container, Col, Row, Button} from 'react-bootstrap';
-import {FaHtml5, FaJsSquare,FaWordpress, FaSass, FaFlask, FaPython, FaReact, FaBootstrap, FaFreeCodeCamp, FaDownload} from 'react-icons/fa'
-import {SiTypescript,SiHugo, SiHeroku, SiUdemy,SiMysql, SiJquery} from 'react-icons/si'
+import {FaHtml5, FaJsSquare,FaWordpress, FaSass, FaFlask, FaPython, FaReact, FaBootstrap, FaDownload} from 'react-icons/fa'
+import {SiTypescript,SiHugo, SiHeroku,SiMysql, SiJquery} from 'react-icons/si'
 
 
 function Resume() {
@@ -38,7 +38,7 @@ function Resume() {
       </b></p>
 
       <ul><h4>CERTIFICATION</h4>
-      
+
     <li>
       <a target="_blank" rel='noreferrer noopener' href="https://www.udemy.com/certificate/UC-57e38dfa-54ed-425a-8afe-de0e47fa6008/"><h5>The Python Pro Bootcamp</h5></a>
     </li>
