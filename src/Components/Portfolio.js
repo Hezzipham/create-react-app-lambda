@@ -51,7 +51,7 @@ const codepen = [
   },
   {
     id: 7,
-    cpname: "Domino Media",
+    cpname: "Portfolio Quynh Vu",
     cpuse: "Using Bootstrap, HTML, CSS, jQuery",
     cplink: "https://codepen.io/hezzipham/pen/oNxNYPO",
     cpimage: "images/codepen7.jpg",
