@@ -4,10 +4,8 @@ import {Container, Button, Form, Row, Col} from 'react-bootstrap';
 
 function Contact() {
   return (
-    
-   <Container>
-
-    <Col>
+        <div className="introimage">
+        <Col>
         <Form>
                     <Row className="mb-3">
                         <Form.Group as={Col} controlId="firstName">
@@ -76,8 +74,15 @@ function Contact() {
                     <Button variant="secondary">Send</Button>
         </Form>
     </Col>
-
-   </Container>
+    <ul className="socialmedia">
+          <li><a target="_blank" rel='noreferrer noopener' href="https://www.linkedin.com/in/hezzi-pham/" ><FaLinkedinIn></FaLinkedinIn></a></li>
+          <li><a target="_blank" rel='noreferrer noopener' href="https://github.com/Hezzipham/" ><FaGithub></FaGithub></a></li>
+          <li><a target="_blank" rel='noreferrer noopener' href="https://twitter.com/HezziPham" ><FaTwitter></FaTwitter></a></li>
+          <li><a target="_blank" rel='noreferrer noopener' href="https://www.instagram.com/hezzipham" ><FaInstagram></FaInstagram></a></li>
+          <li><a target="_blank" rel='noreferrer noopener' href="https://www.facebook.com/hezzipham/" ><FaFacebookF></FaFacebookF></a></li>
+      </ul>
+      
+  </div>
   );
 }
 export default Contact;
