@@ -19,13 +19,12 @@ function App() {
       <Switch>
       <Route path="/" exact component={Home} />
       <Route path="/service" component={Service} />
-      <Route path="/portfolio" component={Portfolio} />
       <Route path="/resume" component= {Resume} />
-      <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
       </Switch>
     </div>
     <About />
+    <Portfolio />
     </Router>
   );
 }
