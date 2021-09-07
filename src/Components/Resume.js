@@ -1,8 +1,8 @@
 import React from 'react';
 import '../App.css';
 import {Container, Col, Row, Button} from 'react-bootstrap';
-import {FaHtml5, FaJsSquare,FaWordpress, FaSass, FaFlask, FaPython, FaReact, FaBootstrap, FaDownload} from 'react-icons/fa'
-import {SiTypescript,SiHugo, SiHeroku,SiMysql, SiJquery} from 'react-icons/si'
+import {FaHtml5, FaJsSquare,FaWordpress, FaSass, FaPython, FaReact, FaBootstrap, FaDownload} from 'react-icons/fa'
+import {SiTypescript,SiHugo, SiHeroku, SiNetlify, SiMysql, SiJquery} from 'react-icons/si'
 
 
 function Resume() {
@@ -30,12 +30,15 @@ function Resume() {
       <span> CSS <FaSass></FaSass> |</span>
       <span> JavaScript <FaJsSquare></FaJsSquare> |</span>
       <span> TypeScript <SiTypescript></SiTypescript> |</span> 
-      <span> React <FaReact></FaReact> |</span>   
+      <span> React <FaReact></FaReact> |</span>
+      <span> Redux |</span>    
       <span> Python <FaPython></FaPython> |</span>  
       <span> SQL <SiMysql></SiMysql> |</span>  
-      <span> Flask <FaFlask></FaFlask> |</span>  
+      <span> Flask |</span>
+      <span> Diango |</span>   
       <span> Hugo <SiHugo></SiHugo> |</span>   
-      <span> Heroku <SiHeroku></SiHeroku> |</span>      
+      <span> Heroku <SiHeroku></SiHeroku> |</span>   
+      <span> Netlify <SiNetlify></SiNetlify> |</span>   
       <span> WordPress <FaWordpress></FaWordpress> |</span>
       <span> Bootstrap <FaBootstrap></FaBootstrap> |</span>
       <span> jQuery <SiJquery></SiJquery></span>
