@@ -1,27 +1,11 @@
-.service {
-  text-align: center;
-}
-
-.portfolio {
-  text-align: center;
-}
+/*# sourceMappingURL=App.css.map */
 
 .hezziphoto {
   border-radius: 5%;
 }
 
-.about {
-  margin-top: 2em;
-}
-
-.navbar {
-  background-color: #3d5a80;
-  color: #f0efeb;
-}
-
 #logo {
   text-decoration: none;
-  color: #f0efeb;
 }
 
 .recent a {
@@ -59,12 +43,10 @@
 .socialmedia a {
   display: block;
   text-decoration: none;
-  color: #f0efeb;
   position: relative;
   width: 50px;
   height: 50px;
   text-align: center;
-  background: #3d5a80;
   line-height: 50px;
   font-size: 2em;
   margin: 0 10px;
@@ -75,24 +57,7 @@
   color: #3d5a80;
 }
 
-.resume {
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
-
-.resumtop {
-  background-color: #495867;
-  color: #f0efeb;
-  padding: 2em;
-  text-align: center;
-}
-
-.resumtop h1 {
-  font-size: 4em;
-}
-
 .resumbody {
-  padding: 2em;
   color: #5e6f85;
   background-color: #cfd8d7;
 }
@@ -102,11 +67,31 @@
   color: inherit;
 }
 
-.resumbody h4 {
+/*# common class */
+.my-5{
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+.mx-5{
+  margin-left: 5em;
+  margin-right: 5em;
+  
+}
+.p-5{
+  padding: 5em;
+}
+.text-center{
+  text-align: center;
+}
+.text-light{
+  color: #f0efeb;
+}
+.text-dark{
   color: #3d5a80;
 }
-
-.resumbody li {
-  list-style: none;
+.dark-bg{
+  background-color: #3d5a80;
 }
-/*# sourceMappingURL=App.css.map */
+.super-dark-bg{
+background-color: #495867;
+}

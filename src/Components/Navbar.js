@@ -7,9 +7,9 @@ function Navi() {
   const [expanded, setExpanded] = useState(false);
   return (
 
-    <Navbar expanded={expanded} className="navbar" variant="dark" expand="md">
+    <Navbar expanded={expanded} className="dark-bg text-light" variant="dark" expand="md">
       <Container>
-      <Navbar.Brand > <Link id="logo" to="/">Hezzi Pham</Link></Navbar.Brand >
+      <Navbar.Brand > <Link  className ="text-light" id="logo" to="/">Hezzi Pham</Link></Navbar.Brand >
       <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav as="ul" className="ml-auto" >

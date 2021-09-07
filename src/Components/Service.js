@@ -115,7 +115,7 @@ function Service() {
     }
   };
   return (
-    <Container className="service">
+    <Container className="text-center my-5">
       <Row>
         <Col xs={12} md={8}>
         <h2>Services</h2>

@@ -6,17 +6,18 @@ import {FaChevronLeft, FaChevronRight} from 'react-icons/fa';
 const recentProject = [
     {
         id: 1,
-        pname: "Bunpeti",
-        puse: "Using HTML, Sass, TypeScript and  jQuery to create fun animation, reponsive website to publicize Bunpeti youtube channel and display some affiliate marketing products.",
-        plink: "https://bunpeti.com/",
-        pimage: "images/bunpeti.jpg",
+        pname: "Domino Media",
+        puse: "Personal Website using React, React Router, Bootstrap, Sass, and netlify-lambda together in a Netlify Dev workflow. Implement react hooks to fetch data to build an e-commerce shopping cart and a  responsive portfolio.",
+        plink: "https://chienvu.com/",
+        pimage: "images/hezziwebsite.jpg",
+        
       },
     {
         id: 2,
-        pname: "Personal Website",
-        puse: "Personal Website using React, React Router, Bootstrap, Sass, and netlify-lambda together in a Netlify Dev workflow. Implement react hooks to fetch data to build an e-commerce shopping cart and a  responsive portfolio.",
-        plink: "https://hezzipham.com/",
-        pimage: "images/hezziwebsite.jpg",
+        pname: "Bunpeti.com",
+        puse: "Using HTML, Sass, TypeScript and  jQuery to create fun animation, reponsive website to publicize Bunpeti youtube channel and display some affiliate marketing products.",
+        plink: "https://bunpeti.com/",
+        pimage: "images/bunpeti.jpg",
       },
       {
         id: 3,
@@ -26,7 +27,7 @@ const recentProject = [
         pimage: "images/dino.jpg",
       },
       {
-        id: 3,
+        id: 4,
         pname: "Library Of Games",
         puse: "A nonprofit organization website to promote Vietnamese folk games. Using html5, CSS, vanilla JavaScript, and free hosting with GitHub and Netlify",
         plink: "https://libraryofgames.org/",

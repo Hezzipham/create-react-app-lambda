@@ -9,9 +9,14 @@ import Otherproject from './OtherProjects'
 
 function Portfolio() {
   return (
-    <Container className="portfolio">
+    <Container className="text-center my-5">
       <Row>
-        <Col xs={12} md={9}><h2>Most Recent Projects</h2>
+        
+        <div>
+        </div>  
+      </Row>  
+      <Row>
+        <Col xs={12} md={9}><h2>Up and Running Website </h2>
         <Recent />
         </Col>
         <Col xs={12} md={3}>

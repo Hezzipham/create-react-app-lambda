@@ -5,7 +5,7 @@ import {Button, Container, Form, Row, Col} from 'react-bootstrap';
 
 function Contact() {
   return (
-            <Container>
+            <Container className="my-5">
       <Row>
       <Col xs={12} md={2}>
       </Col >

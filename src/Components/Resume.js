@@ -7,16 +7,16 @@ import {SiTypescript,SiHugo, SiHeroku,SiMysql, SiJquery} from 'react-icons/si'
 
 function Resume() {
   return (
-   <Container className="resume">
+   <Container className="my-5">
   {/* Stack the columns on mobile by making one full-width and the other half-width */}
-  <Row className="resumtop">
+  <Row className="super-dark-bg p-5 text-center text-light">
       <h1>Hezzi Pham</h1>
-      <h2>Web Developer</h2>
+      <h3>Web Developer</h3>
       
   </Row>
 
   {/* Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop */}
-  <Row className="resumbody">
+  <Row className="resumbody p-5">
   <Col xs={12} md={4}>
   <h4>EXECUTIVE SUMMARY</h4>
   <hr></hr>
