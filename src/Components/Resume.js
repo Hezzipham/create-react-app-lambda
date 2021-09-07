@@ -35,7 +35,7 @@ function Resume() {
       <span> Python <FaPython></FaPython> |</span>  
       <span> SQL <SiMysql></SiMysql> |</span>  
       <span> Flask |</span>
-      <span> Diango |</span>   
+      <span> Django |</span>   
       <span> Hugo <SiHugo></SiHugo> |</span>   
       <span> Heroku <SiHeroku></SiHeroku> |</span>   
       <span> Netlify <SiNetlify></SiNetlify> |</span>   
