@@ -82,7 +82,7 @@ function Resume() {
     <h5><a target="_blank" rel="noreferrer noopener" href="https://www.bunpeti.com/">Bun Pet Inc | Sep 2020 – Present</a></h5> 
     <p><b>Founder </b> Developed a website to create content about pet care,  recommending pet supplies,  which gain 3000 subscribers, create 80 youtube videos, gather and answer 5000 questions.   </p>
     <h5><a target="_blank" rel="noreferrer noopener" href="https://www.chienvu.com/">Domino Media | September 2017 – April 2020</a></h5>
-     <p><b>Web Deverloper</b> Reinforced the brand by redesigning the company identity and build a bilingual portfolio website, attracts more than 2000 clients a year.</p>
+     <p><b>Web Developer</b> Reinforced the brand by redesigning the company identity and build a bilingual portfolio website, attracts more than 2000 clients a year.</p>
     
     <h5><a target="_blank" rel="noreferrer noopener" href="http://dinodaycare.com">DINO Daycare & Preschool | April 2016 – July 2017</a></h5>
     <p><b>PR-Marketing Manager</b>Created and managed the Daycare’s website and social media platforms including Yelp, Facebook, Instagram with more than 5,000 website views and 25,000 followers within the first year.</p>
