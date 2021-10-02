@@ -6,6 +6,7 @@ import Portfolio from './Components/Portfolio';
 import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 import Service from './Components/Service';
+import Hello from './Components/hello';
 import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 import {FaGithub, FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn} from 'react-icons/fa'
 
@@ -23,6 +24,7 @@ function App() {
       <Route path="/resume" component= {Resume} />
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
+      <Route path="/hello" component={Hello} />
       </Switch>
     </div>
     </Router>
