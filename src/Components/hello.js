@@ -4,7 +4,7 @@ import '../App.css';
 
 class Hello extends React.Component {
     render(){
-        return (<h1>Hello there</h1>
+        return (<h1>Hello {this.props.from} to {this.props.to}</h1>
             )
     }
 }
