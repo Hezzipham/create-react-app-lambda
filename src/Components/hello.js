@@ -9,7 +9,7 @@ class Hi extends React.Component {
         return (
            <div>
                <h1>Hello {this.props.from} to {this.props.to} {bangs}</h1>
-               <img scr={this.props.img} alt="No"/>
+               <img src={this.props.img} alt="No"/>
            </div> 
         
             )
