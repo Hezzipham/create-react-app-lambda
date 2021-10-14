@@ -7,12 +7,13 @@ class Machine extends React.Component{
         let icon2= this.props.icon[Math.floor(Math.random() * 3)];
         let icon3= this.props.icon[Math.floor(Math.random() * 3)];
         const winner = (icon1===icon2) && (icon2===icon3);
+        const iconBorder = {fontSize: "2em", color:"white"}
         return(
             
-            <div>
+            <div className={winner? "Machine-win my-5 mx-5" : "Machine-lose my-5 mx-5"}>
                 <h1>Slot Machines!</h1>
-                <p>{icon1}{icon2}{icon3}</p>
-                <p>{winner? "Winner!": "Loser!" }</p>
+                <h1>{icon1}{icon2}{icon3}</h1>
+                <p style={iconBorder}>{winner? "Winner!": "Loser!" }</p>
             </div>
         )
     }
@@ -27,6 +28,9 @@ class SlotMachine extends React.Component {
             />
             <Machine
                 icon={["🍇","🍍","🥥"]} 
+            />
+            <Machine
+                icon={["🍒","🥬","🫐"]} 
             />
         </div>
         )

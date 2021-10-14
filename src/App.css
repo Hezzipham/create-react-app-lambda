@@ -95,3 +95,13 @@
 .super-dark-bg{
 background-color: #495867;
 }
+.Machine-win {
+border: 2px solid black;
+background: rgba(40, 219, 40, 0.438);
+text-align: center;
+}
+.Machine-lose {
+  border: 2px solid black;
+  background: rgba(238, 74, 74, 0.548);
+  text-align: center;
+  }
