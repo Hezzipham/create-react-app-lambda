@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {Component} from 'react';
 import '../App.css';
 
-class Friend extends React.Component {
+class Friend extends Component {
     render(){
         const {name, hobbies} = this.props;
         const hobby = hobbies.map(hobby => <li><h2>{hobby}</h2></li>)

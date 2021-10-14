@@ -1,8 +1,8 @@
-import React from 'react';
+import React, {Component} from 'react';
 import '../App.css';
 
 
-class Hi extends React.Component {
+class Hi extends Component {
     static defaultProps = { from: "Hezzi", bangs:3 }
     render(){
         let bangs = "!".repeat(this.props.bangs)

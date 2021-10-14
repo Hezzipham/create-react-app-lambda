@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {Component} from 'react';
 import '../App.css';
 
-class Machine extends React.Component{
+class Machine extends Component{
     render(){
         let icon1= this.props.icon[Math.floor(Math.random() * 3)];
         let icon2= this.props.icon[Math.floor(Math.random() * 3)];
