@@ -8,6 +8,7 @@ import Contact from './Components/Contact';
 import Service from './Components/Service';
 import Hello from './Components/hello';
 import SlotMachine from "./Components/slotmachine"
+import Loop from './Components/loop';
 import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 import {FaGithub, FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn} from 'react-icons/fa'
 
@@ -27,6 +28,7 @@ function App() {
       <Route path="/contact" component={Contact} />
       <Route path="/hello" component={Hello} />
       <Route path="/slot" component={SlotMachine} />
+      <Route path="/loop" component={Loop} />
       </Switch>
     </div>
     </Router>
