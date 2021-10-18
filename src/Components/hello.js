@@ -28,8 +28,9 @@ class Hello extends React.Component {
         data={[1,2,3,4,5]}
         isFunny = {true}
         img= "https://images.unsplash.com/photo-1633983054677-4c9cdd4e16cd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80" />
-
+        <Hi />
         </div>
+
         
             )
     }
